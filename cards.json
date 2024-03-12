@@ -1,0 +1,1082 @@
+[
+    {
+        "cardname": "Abandoned Nuke Silo",
+        "cardtype": "Base",
+        "text": "Enemies can't blow up your Machines.\n\nWhen this Base is blown up, put the top card of your Arsenal on top of your Backup Plans.",
+        "image": "/card_art/abandoned_nuke_silo.png"
+    },
+    {
+        "cardname": "Accidental Portal to Hell",
+        "cardtype": "Scheme",
+        "text": "Discard up to two cards from under target Blueprint, then if there are no cards under it, blow it up.",
+        "image": "/card_art/accidental_portal_to_hell.png"
+    },
+    {
+        "cardname": "Alan Horner, Paleontologist",
+        "cardtype": "Mook",
+        "type": "Scientist, Support",
+        "text": "Requires 1 Mook\n\nUnique\n\nWhen this Mook onboards or assaults, exchange up to two cards from your hand with that many cards from under one of your Blueprints.",
+        "threat_level": "6",
+        "faction": "Mad Scientist"
+    },
+    {
+        "cardname": "Alien Crash Site",
+        "cardtype": "Base",
+        "text": "Your Scientists get +4.\n\nYou can't be targeted by Schemes.",
+        "image": "/card_art/alien_crash_site.png"
+    },
+    {
+        "cardname": "Amassed Production",
+        "cardtype": "Scheme",
+        "text": "Fabricate a number of Machines equal to your current Turn count or 3, whichever is lower."
+    },
+    {
+        "cardname": "Amber Track, Logistician",
+        "cardtype": "Mook",
+        "type": "Scientist, Soldier",
+        "text": "Requires 2 Mooks, 2 Machines\n\nUnique\n\nOnce per turn, whenever a Mook you control is blown up by an effect you don't control, draw a card.",
+        "threat_level": "5",
+        "faction": "Mercs"
+    },
+    {
+        "cardname": "Amphibian Alteration",
+        "cardtype": "Scheme",
+        "text": "Until the end of your next turn, Mooks can't assault."
+    },
+    {
+        "cardname": "Ancient Ice Virus Replicator",
+        "cardtype": "Blueprint",
+        "text": "Whenever you fabricate a Machine, put the top card of your Arsenal under this card. Then, if this card has three or more Mooks under it, blow up target Mook.\n\nAt the start of your turn, if this card has eight cards under it, you win the game."
+    },
+    {
+        "cardname": "Anti-Machine Machinations",
+        "cardtype": "Scheme",
+        "text": "For each Goon you control, target a Machine. Flip those Machines facedown."
+    },
+    {
+        "cardname": "Arctic Ice Fortress",
+        "cardtype": "Base",
+        "text": "You can't be assaulted by two or fewer Mooks.\n\nWhenever this Base is blown up or liquidated, draw a card.",
+        "image": "/card_art/arctic_ice_fortress.png"
+    },
+    {
+        "cardname": "Armored Mook",
+        "cardtype": "Mook",
+        "type": "Henchman",
+        "text": "Requires 1 Machine\n\nGets +2 for each card in your hand.",
+        "threat_level": "6",
+        "image": "/card_art/armored_mook.png"
+    },
+    {
+        "cardname": "Automatic Jumpscare",
+        "cardtype": "Machine",
+        "text": "When you fabricate this Machine, target a Mook. It can't assault or block as long as you control Automatic Jumpscare.\n\nWhen that Mook is blown up, blow up this Machine."
+    },
+    {
+        "cardname": "Average TV Pundit",
+        "cardtype": "Mook",
+        "type": "Goon, Agent",
+        "text": "???",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Bribe the Guards",
+        "cardtype": "Scheme",
+        "text": "Up to two target Mooks can't block until end of turn."
+    },
+    {
+        "cardname": "Bribe World Leaders",
+        "cardtype": "Blueprint",
+        "text": "Whenever you play a Scheme, put it under this card instead of into your Garbage Pile.\n\nAt the start of your turn, if this card has eight Scheme cards under it, you win the game."
+    },
+    {
+        "cardname": "Brilliant Tactical Mind",
+        "cardtype": "Mook",
+        "type": "Henchman, Scientist, Soldier",
+        "text": "Whenever an enemy plays a Scheme, after that Scheme resolves, you can blow up this Mook. If you do, you can play a Scheme from your hand.",
+        "threat_level": "4",
+        "faction": "Mercs",
+        "image": "/card_art/brilliant_tactical_mind.png"
+    },
+    {
+        "cardname": "Buff Physicist",
+        "cardtype": "Mook",
+        "type": "Scientist",
+        "text": "This Mook gets +2 for each Backup Plan you have less than 6.",
+        "faction": "Mad Scientist",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Cardboard Facade",
+        "cardtype": "Base",
+        "text": "If your Active Base would be blown up, you can blow up this Base instead. You can use this ability if this isn't your Active Base.",
+        "image": "/card_art/cardboard_facade.png"
+    },
+    {
+        "cardname": "Charismatic Cult Leader",
+        "cardtype": "Mook",
+        "type": "Leader",
+        "text": "🔘Liquidate 6 other nontoken Mooks: Charismatic Cult Leader becomes Myrianna, a Demon Leader with threat level 36 and gains invincible.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Charitable Donation",
+        "cardtype": "Scheme",
+        "text": "Give control of one of your Machines to another player."
+    },
+    {
+        "cardname": "Clipper Pirate",
+        "cardtype": "Mook",
+        "type": "Soldier",
+        "text": "When you declare an assault with this Mook, target Mook loses Skilled Defender until end of turn.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Clockwork Soldier",
+        "cardtype": "Machine",
+        "text": "This Machine can assault as though it were a Mook with Threat Level 8."
+    },
+    {
+        "cardname": "Commit Tax Evasion",
+        "cardtype": "Scheme",
+        "text": "Draw a card, then target Mook gets +X until end of turn, where X is the number of cards in your hand."
+    },
+    {
+        "cardname": "Convenient Accident",
+        "cardtype": "Scheme",
+        "text": "Target Mook gets -8 until end of turn."
+    },
+    {
+        "cardname": "Costume Party Trick",
+        "cardtype": "Scheme",
+        "text": "Target Mook you control becomes a copy of target Mook you don't control."
+    },
+    {
+        "cardname": "Cross Examination",
+        "cardtype": "Scheme",
+        "text": "Target player reveals their hand. If they have more Mooks in their hand than you control, put the top card of your Arsenal into your Backup Plans. Otherwise, draw a card."
+    },
+    {
+        "cardname": "Cutthroat Futurist",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "When you would draw a card, you <b>exploit</b> instead. To exploit, reveal the top card of your Arsenal and put it under a card you control, or into your hand.",
+        "factionPressureAbility": "Once per game, choose two target machines. Blow up one of them and take control of the other one.",
+        "factionStaticAbility": "Your Mooks get +1 for each card under them.",
+        "factionFlavorText": "Look, we just have to sell another million... billion... trillion copies!",
+        "faction": "Corporation"
+    },
+    {
+        "cardname": "Dead Man's Switch",
+        "cardtype": "Scheme",
+        "text": "Play this only when one of your Unique Mooks is blown up.\n\nBlow up target Mook, Base, or Machine. If you do, draw a card.",
+        "image": "/card_art/dead_man_switch.png"
+    },
+    {
+        "cardname": "Deadly Neurotoxin",
+        "cardtype": "Scheme",
+        "text": "Mooks get -3 from poison until end of turn."
+    },
+    {
+        "cardname": "Death Metal Bard",
+        "cardtype": "Mook",
+        "type": "Support, Henchman",
+        "text": "Your other Mooks get +3 while assaulting.",
+        "threat_level": "6",
+        "image": "/card_art/death_metal_bard.png"
+    },
+    {
+        "cardname": "Death Ray",
+        "cardtype": "Blueprint",
+        "text": "At the start of your turn, put the top card of your Arsenal under this card.\n\nAt the end of your turn, if this card has three or more cards under it, discard them all. If you do, blow up any target.",
+        "faction": "Mad Scientist",
+        "image": "/card_art/death_ray.png"
+    },
+    {
+        "cardname": "Deepweb Search",
+        "cardtype": "Scheme",
+        "text": "Search your Arsenal for a Mook with Threat Level 4 or less, or a Machine. Put that card into your hand, then shuffle and toss two cards from the top of your Arsenal."
+    },
+    {
+        "cardname": "Defenestrate",
+        "cardtype": "Scheme",
+        "text": "Blow up target Unique Mook or target Mook with threat level 8 or higher."
+    },
+    {
+        "cardname": "Demolition Accord",
+        "cardtype": "Scheme",
+        "text": "Vote for a Machine, then blow it up. If your choice was blown up this way, take control."
+    },
+    {
+        "cardname": "Demolitions Expert",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "At the start of your turn, if you control 7 or more bases with different names, you win the game.",
+        "factionPressureAbility": "Once per game, until end of turn, your Schemes can target Mooks and Machines that can't be targeted.",
+        "factionStaticAbility": "Once per turn, whenever one of your Mooks is blown up by an ability, you can blow up target Mook with a lower threat level.",
+        "factionFlavorText": "Now I am become Death, the destroyer of worlds.",
+        "faction": "Mercs"
+    },
+    {
+        "cardname": "Deploy Hypnodrones",
+        "cardtype": "Scheme",
+        "text": "Shuffle your hand into your Arsenal, then draw that many cards. Then, for each card drawn this way, up to one target Mook can't block this turn."
+    },
+    {
+        "cardname": "Discount Quantum Singularity",
+        "cardtype": "Machine",
+        "text": "Unique\n\nThis Machine counts towards one requirement of any type.\n\nWhenever you hire a Mook that has a requirement, draw a card."
+    },
+    {
+        "cardname": "Distraction Fabricator",
+        "cardtype": "Machine",
+        "text": "Whenever an enemy declares an assault, you can target one of their Mooks. If you do, that Mook can't assault this turn."
+    },
+    {
+        "cardname": "Do Not Fail Me",
+        "cardtype": "Scheme",
+        "text": "You can play this whenever one of your Mooks is targeted or blocks.\n\nTarget Mook gets +6 until end of turn."
+    },
+    {
+        "cardname": "Drafting Machine",
+        "cardtype": "Machine",
+        "text": "Whenever you would draw a card, you can blow up this Machine instead. If you do, search your Arsenal for a Blueprint and play it, then shuffle."
+    },
+    {
+        "cardname": "Dragon Cosplayer",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "When this Mook onboards, put the top two cards of your Arsenal under it.\n\nThis Mook gets +1 for each card under it.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "Drone Pilot",
+        "cardtype": "Mook",
+        "type": "Soldier, Technician",
+        "text": "Requires 2 Machines\n\nWhenever you declare an assault, hire a token Mook. Then you can blow up one of your tokens. If you do, target Mook gets +4 until end of turn.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "Encourage Forest Fires",
+        "cardtype": "Scheme",
+        "text": "Discard or liquidate a Mook as a cost.\n\nBlow up target Base, then draw a card.",
+        "image": "/card_art/encourage_forest_fires.png"
+    },
+    {
+        "cardname": "Enhanced Employee",
+        "cardtype": "Mook",
+        "type": "Cyborg, Scientist",
+        "text": "Requires 1 Mook, 1 Machine\n\nYou can play a second Scheme each turn.",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Escape Pods",
+        "cardtype": "Machine",
+        "text": "When you're assaulted successfully, blow up this Machine instead of taking any Backup Plans."
+    },
+    {
+        "cardname": "Evil Doctor",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "You start the game with a Blueprint from your Arsenal in play.",
+        "factionPressureAbility": "Once per game, hire two token Mooks.",
+        "factionStaticAbility": "Whenever you hire one or more token Mooks, you hire that many plus one instead.",
+        "factionFlavorText": "Quickly, Igor, I need more victi-... test subj-... I need more willing participants!",
+        "faction": "Mad Scientist",
+        "image": "/card_art/evil_doctor.png"
+    },
+    {
+        "cardname": "Evil Laugh",
+        "cardtype": "Scheme",
+        "text": "Play only when a player declares an assault on you.\n\nUntil end of turn, whenever a Mook assaults, it gets -2."
+    },
+    {
+        "cardname": "Evil Supercomputer",
+        "cardtype": "Machine",
+        "text": "You can play an extra Scheme each turn."
+    },
+    {
+        "cardname": "Experimental Portal Donation",
+        "cardtype": "Scheme",
+        "text": "Discard two cards as a cost. Draw two cards.\n\nWhen you take this Scheme as a Backup Plan, you can reveal it to play it immediately, ignoring its costs."
+    },
+    {
+        "cardname": "Exponential Scheme",
+        "cardtype": "Scheme",
+        "text": "Reveal the top four cards of your Arsenal. Put all the Schemes among those cards into your hand, and toss the rest. You can play another Scheme this turn."
+    },
+    {
+        "cardname": "Fake Your Death",
+        "cardtype": "Scheme",
+        "faction": "Mad Scientist",
+        "text": "Put a card from your hand on top of your Backup Plans."
+    },
+    {
+        "cardname": "Finn Dorset, Hired Biologist",
+        "cardtype": "Mook",
+        "type": "Scientist, Henchman",
+        "text": "Requires 4 Mooks\n\nUnique\n\nWhenever another nontoken Mook you control is blown up by an effect, hire a token Mook.",
+        "threat_level": "5",
+        "faction": "Mad Scientist",
+        "image": "/card_art/finn_dorset.png"
+    },
+    {
+        "cardname": "Flagbearer Mook",
+        "cardtype": "Mook",
+        "type": "Support, Soldier",
+        "text": "Whenever an enemy targets one of your Mooks, you can change the target to this Mook",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Foil Plans",
+        "cardtype": "Scheme",
+        "text": "Target enemy discards two cards, then draws two cards."
+    },
+    {
+        "cardname": "Forest Treehouse",
+        "cardtype": "Base",
+        "text": "You can't fabricate Machines.\n\nYour Mooks get +3 when defending."
+    },
+    {
+        "cardname": "Freelance Reporter",
+        "cardtype": "Mook",
+        "type": "Henchman, Support",
+        "text": "Your Mooks can't be targeted by Schemes.\n\nWhenever you take a Backup Plan, you can discard that card. If you do, draw a card.",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Gamma Ray Burst",
+        "cardtype": "Scheme",
+        "text": "You can blow up one of your Machines as a cost. If you do, target Mook gets +5 from radiation.\n\nTarget Mook gets -2 from radiation."
+    },
+    {
+        "cardname": "Gas Mask Mook",
+        "cardtype": "Mook",
+        "type": "Scientist, Soldier",
+        "text": "Immune to poison.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Gen Z Nero, Doomposter",
+        "cardtype": "Mook",
+        "type": "Support",
+        "text": "Requires 2 Mooks\n\nUnique\nSkilled Defender\n\nAt the start of your turn, blow up each Active Base. For each Base blown up this way, return target Mook to its owner's hand.",
+        "threat_level": "7"
+    },
+    {
+        "cardname": "General Gruff, Tactician",
+        "cardtype": "Mook",
+        "type": "General, Soldier, Henchman",
+        "text": "Requires 3 Mooks, 1 Machine, Turn 4 or later\n\nUnique\n\nYour Mooks have Skilled Attacker.",
+        "faction": "Mercs",
+        "threat_level": "8"
+    },
+    {
+        "cardname": "Generic Radicalist",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "When this Mook onboards, target player tosses the top three cards of their Arsenal.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "Genetic Experiment Vat",
+        "cardtype": "Machine",
+        "text": "🔘Blow up this Machine and one of your Mooks as a cost. If you do, reveal cards from the top of your Arsenal until you reveal a Mook. Hire the revealed Mook, ignoring its requirements, then put the rest of the revealed cards on the bottom of your Arsenal in any order."
+    },
+    {
+        "cardname": "Ghost Gun Fabricator",
+        "cardtype": "Machine",
+        "text": "🔘Blow up this Machine as a cost. If you do, target Mook gets +7 until end of turn."
+    },
+    {
+        "cardname": "Gifted Programmer",
+        "cardtype": "Mook",
+        "type": "Scientist",
+        "text": "When this Mook onboards, draw a card.\n\nWhen you take this Mook as a Backup Plan, you can reveal it to hire it. If you do, draw a card.",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Gifted Tactician",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "At the start of your turn, if you control 7 or more bases with different names, you win the game.",
+        "factionPressureAbility": "Once per game, if one or more of your Mooks would be blown up by an ability, they gain invincible until end of turn.",
+        "factionStaticAbility": "After an enemy you're assaulting chooses defenders, you can have target Mook you control get Skilled Attacker until end of turn.",
+        "factionFlavorText": "No plan survives first contact with the enemy. That's why I always have two plans.",
+        "faction": "Mercs"
+    },
+    {
+        "cardname": "Guerilla Fighter",
+        "cardtype": "Mook",
+        "type": "Soldier, Henchman",
+        "text": "When you take this Mook as a Backup Plan, you can reveal it to hire it. When this Mook onboards this way, hire a token Mook.",
+        "faction": "Mercs",
+        "threat_level": "7"
+    },
+    {
+        "cardname": "Hack the Mainframe",
+        "cardtype": "Scheme",
+        "text": "Target player reveals their hand and discards all Schemes and Blueprints among them."
+    },
+    {
+        "cardname": "Hacked Lucky Cat",
+        "cardtype": "Machine",
+        "text": "The first time you would draw a card each turn, instead look at the top card of your Arsenal. You can toss that card. Then draw a card."
+    },
+    {
+        "cardname": "Hamster Treadmill",
+        "cardtype": "Machine",
+        "text": "Whenever you draw your first card each turn, you can discard a card. If you do, draw a card.",
+        "image": "/card_art/hamster_treadmill.png"
+    },
+    {
+        "cardname": "Haunted Castle",
+        "cardtype": "Base",
+        "text": "You can fabricate an extra Machine each turn. When you do, draw a card."
+    },
+    {
+        "cardname": "Hazmat Trooper",
+        "cardtype": "Mook",
+        "type": "Scientist",
+        "text": "Immune to poison, disease, and radiation.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Helicopter Pilot",
+        "cardtype": "Mook",
+        "type": "Soldier, Technician",
+        "text": "Your Machines that are also Mooks have Skilled Attacker and Skilled Defender.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "High-Powered Hologram Projector",
+        "cardtype": "Machine",
+        "text": "Your Active Base can't be targeted.\n\nWhenever you switch your Active Base, blow up this Machine.",
+        "image": "/card_art/high_powered_hologram_projector.png"
+    },
+    {
+        "cardname": "Hire Contractor",
+        "cardtype": "Scheme",
+        "text": "Requires Turn 3 or later\n\nHire a Mook from your hand, ignoring its requirements."
+    },
+    {
+        "cardname": "Hold for Ransom",
+        "cardtype": "Scheme",
+        "text": "Put this card under target Mook and take control of it. It can't declare an assault or use its activated effects.\n\nWhenever its owner would draw a card, they can have you draw two cards instead. If they do, discard this card and this effect ends."
+    },
+    {
+        "cardname": "Hot Potato Goon",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "Whenever this Mook assaults, if it's blown up in combat or the assault fails, blow up target Machine.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "HR Representative",
+        "cardtype": "Mook",
+        "type": "Support, Henchman",
+        "text": "Mooks in your hand have -1 to each of their requirements.",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Hulk Mook",
+        "cardtype": "Mook",
+        "type": "Giant, Goon",
+        "text": "Requires 2 Mooks\n\nWhile assaulting, this Mook gets +2 for each other assaulting Mook.",
+        "threat_level": "8"
+    },
+    {
+        "cardname": "Human Resources HQ",
+        "cardtype": "Base",
+        "text": "You can liquidate Mooks instead of other card types to pay costs.\n\nWhenever you liquidate one or more Mooks to pay a cost, reveal cards from the top of your Arsenal until you reveal a Mook. Put it into your hand and the rest on the bottom in any order."
+    },
+    {
+        "cardname": "Immoral Executive",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "When you would draw a card, you exploit instead. To exploit, reveal the top card of your Arsenal and put it under a card you control, or into your hand.",
+        "factionPressureAbility": "Once per game, exploit 3.",
+        "factionStaticAbility": "",
+        "factionFlavorText": "Look, we just have to sell another million... billion... trillion copies!",
+        "faction": "Corporation"
+    },
+    {
+        "cardname": "Indomitable Mook",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "This Mook has Threat Level 6.",
+        "threat_level": "6",
+        "image": "/card_art/indomitable_mook.png"
+    },
+    {
+        "cardname": "Industrial Wasp Nest",
+        "cardtype": "Machine",
+        "text": "Whenever you draw one or more cards, target Mook gets -2 until end of turn for each card you drew.",
+        "image": "/card_art/industrial_wasp_nest.png"
+    },
+    {
+        "cardname": "Influencer for Hire",
+        "cardtype": "Mook",
+        "type": "Support, Citizen",
+        "text": "When this Mook onboards, target player reveals their hand and each of their facedown cards. For each card revealed this way, this Mook gets +1 until end of turn.",
+        "threat_level": "6",
+        "image": "/card_art/influencer_for_hire.png"
+    },
+    {
+        "cardname": "Intern Engineer",
+        "cardtype": "Mook",
+        "type": "Technician",
+        "text": "When this Mook onboards, for each of your Blueprints, you can trigger its start-of-turn ability. If you do, you can't win the game because of that Blueprint this turn.",
+        "threat_level": "5",
+        "faction": "Mad Scientist"
+    },
+    {
+        "cardname": "Invest in Crypto",
+        "cardtype": "Scheme",
+        "text": "Look at the top three cards of your Arsenal. Hire one as a token Mook, put one into your hand, and toss the last one."
+    },
+    {
+        "cardname": "Island Skull Base",
+        "cardtype": "Base",
+        "text": "Enemies can't target your Blueprints or Mooks.",
+        "faction": "Mad Scientist",
+        "image": "/card_art/island_skull_base.png"
+    },
+    {
+        "cardname": "Ivan Ivanovich, Assassin",
+        "cardtype": "Mook",
+        "type": "Agent, Soldier",
+        "text": "Unique\nSkilled Attacker\n\nWhen this Mook assaults, target Mook gets -5 from poison.",
+        "faction": "Mercs",
+        "threat_level": "8",
+        "image": "/card_art/ivan_ivanovich.png"
+    },
+    {
+        "cardname": "Kid's Science Museum",
+        "cardtype": "Base",
+        "text": "Your Scientists get +2.\n\nOnce per turn, when one of your Scientists is targeted, you can change that target to a Mook you don't control.\n\nWhen an enemy blows up this Base, they reveal their hand and you choose a card from it. They discard that card.",
+        "image": "/card_art/kids_science_museum.png"
+    },
+    {
+        "cardname": "Lab Rat Escape",
+        "cardtype": "Scheme",
+        "text": "Blow up target Machine and target facedown Machine."
+    },
+    {
+        "cardname": "Labcoat Distributor",
+        "cardtype": "Machine",
+        "text": "Your Mooks are also Scientists.",
+        "image": "/card_art/labcoat_distributor.png"
+    },
+    {
+        "cardname": "Laser Grid Defense",
+        "cardtype": "Machine",
+        "text": "Whenever an enemy assaults you with more than three Mooks, you can blow up this Machine as a cost before declaring defenders. If you do, blow up target Mook that's assaulting you."
+    },
+    {
+        "cardname": "Lasergun Enforcer",
+        "cardtype": "Mook",
+        "type": "Soldier",
+        "text": "Requires 1 Machine\n\nYour other Lasergun Enforcers get +2.",
+        "threat_level": "7"
+    },
+    {
+        "cardname": "Makeshift Battleship",
+        "cardtype": "Machine",
+        "text": "When you fabricate this Machine, it becomes a Mook with Threat Level 6. Then, you can put up to two of your Machines under it. While it's a Mook, it gets +6 for each Machine card under it."
+    },
+    {
+        "cardname": "Manipulative Chatbot",
+        "cardtype": "Machine",
+        "text": "Onboarding abilities of Mooks you onboard trigger twice."
+    },
+    {
+        "cardname": "Master Engineer",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "You start the game with a Blueprint from your Arsenal in play.",
+        "factionPressureAbility": "Once per game, you can fabricate three additional Machines this turn.",
+        "factionStaticAbility": "The first time one of your Machines is blown up by an ability each turn, you can put that card on top of your Backup Plans faceup.",
+        "factionFlavorText": "With this machine, I will be unstoppable!",
+        "faction": "Mad Scientist"
+    },
+    {
+        "cardname": "Master Impersonator",
+        "cardtype": "Mook",
+        "type": "Agent",
+        "text": "This Mook onboards as a copy of target Mook.",
+        "threat_level": "0",
+        "faction": "Mad Scientist"
+    },
+    {
+        "cardname": "Metal Fist Bruiser",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "Requires 2 Mooks\n\nWhen this Mook assaults, it gets +1 for each Machine you control and -1 for each Machine defending player controls.",
+        "threat_level": "8"
+    },
+    {
+        "cardname": "Meteor Strike Magnet",
+        "cardtype": "Blueprint",
+        "text": "At the start of your turn, if this Blueprint has 5 cards under it, each other player loses the game. If not, put one of your Backup Plans under it, face-up."
+    },
+    {
+        "cardname": "Meticulous Vibe Check",
+        "cardtype": "Scheme",
+        "text": "Blow up five target Mooks."
+    },
+    {
+        "cardname": "Minigun Mook",
+        "cardtype": "Mook",
+        "type": "Soldier",
+        "text": "Requires 1 Mook, 1 Machine\n\nWhile you're being assaulted, this Mook gets +8.",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Minion Fabricator",
+        "cardtype": "Machine",
+        "text": "Once per turn, whenever you hire a nontoken Mook, hire a token Mook.\n\nYour tokens Mooks have Threat Level 3."
+    },
+    {
+        "cardname": "Mook Lobbyist",
+        "cardtype": "Mook",
+        "type": "Support, Goon",
+        "text": "🔘Look at the top card of your Arsenal. If it's a Scheme, put it into your hand.",
+        "threat_level": "3"
+    },
+    {
+        "cardname": "Mook Mastermind",
+        "cardtype": "Mook",
+        "type": "Scientist",
+        "faction": "Mad Scientist",
+        "text": "Requires 6 Scheme cards in your Garbage Pile\n\nUnique\n\nOnce per turn, you can reveal cards from the top of your Arsenal until you reveal a Scheme. Put that card into your hand and the rest on the bottom in any order.",
+        "threat_level": "8",
+        "image": "/card_art/mook_mastermind.png"
+    },
+    {
+        "cardname": "Mook Teamlead",
+        "cardtype": "Mook",
+        "type": "Support, Henchman",
+        "text": "This Mook gets +1 for each of your other Mooks.",
+        "threat_level": "3",
+        "image": "/card_art/mook_teamlead.png"
+    },
+    {
+        "cardname": "Mook Technician",
+        "cardtype": "Mook",
+        "type": "Support, Soldier",
+        "text": "When this Mook onboards, you can fabricate an additional Machine this turn.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "Mook Telemarketer",
+        "cardtype": "Mook",
+        "type": "Support, Henchman",
+        "text": "🔘Discard a Machine. Draw a card.",
+        "threat_level": "3"
+    },
+    {
+        "cardname": "Moon Base",
+        "cardtype": "Base",
+        "text": "You cannot be assaulted by 3 or fewer Mooks.\n\nEnemies can't target your Machines or facedown cards.",
+        "image": "/card_art/moon_base.png"
+    },
+    {
+        "cardname": "Napol Eon, Master Bombardier",
+        "cardtype": "Mook",
+        "type": "General, Soldier",
+        "text": "Requires 2 Mooks, 2 Bases\n\nUnique\nSkilled Attacker\n\nWhenever this Mook assaults, blow up the defender's Active Base.",
+        "threat_level": "9",
+        "faction": "Mercs"
+    },
+    {
+        "cardname": "Nautical Station",
+        "cardtype": "Base",
+        "text": "Enemies can't target you.\n\nWhenever an enemy declares an assault, up to one target Machine you control becomes a Mook with threat level 6 until end of turn.",
+        "image": "/card_art/nautical_station.png"
+    },
+    {
+        "cardname": "Octopus Trainer",
+        "cardtype": "Mook",
+        "type": "Support",
+        "text": "Mooks in enemy hands have +1 to their requirements.\n\nWhenever you hire a nontoken Mook, you can discard a card. If you do, hire a token Mook.",
+        "threat_level": "5",
+        "image": "/card_art/octopus_trainer.png"
+    },
+    {
+        "cardname": "Outsource Violence",
+        "cardtype": "Scheme",
+        "text": "Requires Turn 3 or later\n\nHire three tokens."
+    },
+    {
+        "cardname": "Petty Larceny",
+        "cardtype": "Scheme",
+        "text": "Choose target enemy and name a card type. They reveal the top three cards of their Arsenal. For each card of the chosen type revealed this way, draw a card. They toss those cards."
+    },
+    {
+        "cardname": "Plan Ahead",
+        "cardtype": "Scheme",
+        "text": "Draw two cards.\n\nIf you take this Scheme as a Backup Plan, you can reveal it to play it immediately. If you do, draw three cards instead."
+    },
+    {
+        "cardname": "Poison Gas Defense",
+        "cardtype": "Machine",
+        "text": "Mooks assaulting you get -1 from poison."
+    },
+    {
+        "cardname": "Power Plant",
+        "cardtype": "Machine",
+        "text": "You can fabricate an additional Machine during each of your turns.",
+        "image": "/card_art/power_plant.png"
+    },
+    {
+        "cardname": "President Todd Bonzalez",
+        "cardtype": "Mook",
+        "type": "Politician",
+        "text": "Requires 3 politicians\n\nUnique\n\nThe first time one of your Schemes resolves each turn, play it again.",
+        "threat_level": "8"
+    },
+    {
+        "cardname": "Property Monopoly",
+        "cardtype": "Scheme",
+        "text": "For each Base you don't control, take control of it unless its controller discards a card."
+    },
+    {
+        "cardname": "Psychic Experiments",
+        "cardtype": "Scheme",
+        "text": "Toss the top three cards of your Arsenal, then put the top card of your Arsenal on top of your Backup Plans."
+    },
+    {
+        "cardname": "Puppet Dictator",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "At the start of the game, vote for who takes control. While you're in control, you draw an additional card at the start of your turn.",
+        "factionPressureAbility": "Once per game, take control. If you do, your Mooks get +2 until your next turn.",
+        "factionStaticAbility": "If you start your turn in control, have 5 or more Mooks and control the most Mooks, you win the game.",
+        "factionFlavorText": "Of course I'm the rightful ruler! Just ask the people I work for.",
+        "faction": "Government"
+    },
+    {
+        "cardname": "Queen of Criminality",
+        "cardtype": "Mook",
+        "type": "Leader, Goon",
+        "text": "Requires 2 Mooks\n\nUnique\n\nAt the end of your turn, any player can discard a card. If no one does, blow up target Machine and draw a card.",
+        "threat_level": "8",
+        "faction": "Mad Scientist",
+        "image": "/card_art/queen_of_criminality.png"
+    },
+    {
+        "cardname": "Quickdraw Cowboy",
+        "cardtype": "Mook",
+        "type": "Henchman",
+        "text": "Unique\nSlippery <i class=\"reminder_text\">(This Mook can't be blown up by combat.)</i>",
+        "threat_level": "5",
+        "image": "/card_art/quickdraw_cowboy.png"
+    },
+    {
+        "cardname": "Racecar Mechanic",
+        "cardtype": "Mook",
+        "type": "Technician",
+        "text": "Once per turn, reveal the top card of your Arsenal. If it's a Machine, play it facedown. If not, toss it.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Recognize Real",
+        "cardtype": "Scheme",
+        "text": "Blow up all tokens."
+    },
+    {
+        "cardname": "Representative Fallman",
+        "cardtype": "Mook",
+        "type": "Politician",
+        "text": "Unique\n\nWhenever one or more of your Mooks would be blown up, you can blow up any one of your Mooks instead.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "Reveal Conspiracy",
+        "cardtype": "Scheme",
+        "text": "Target enemy shuffles their hand into their Arsenal, then reveals that many cards plus two from the top. Separate the cards into two piles. They choose one pile, and toss the other.",
+        "image": "/card_art/reveal_conspiracy.png"
+    },
+    {
+        "cardname": "Rocket Trooper",
+        "cardtype": "Mook",
+        "type": "Soldier",
+        "text": "Requires 1 Machine\n\nThis Mook gets +8 while assaulting.",
+        "threat_level": "2",
+        "image": "/card_art/rocket_trooper.png"
+    },
+    {
+        "cardname": "Ron Jambo",
+        "cardtype": "Mook",
+        "type": "Commando, Soldier",
+        "text": "Requires Turn 6 or later\n\nUnique\nSkilled Attacker\nSkilled Defender\n\nWhenever this Mook assaults alone, it can't be blocked.",
+        "faction": "Mercs",
+        "threat_level": "8"
+    },
+    {
+        "cardname": "Satellite Backup",
+        "cardtype": "Machine",
+        "text": "When you fabricate this Machine, put it under another Machine. If that Machine would be blown up by an ability, blow up this Machine instead."
+    },
+    {
+        "cardname": "Scale Down",
+        "cardtype": "Scheme",
+        "text": "Each player chooses and blows up one of their Mooks, Bases, or Machines."
+    },
+    {
+        "cardname": "Scavenge for Parts",
+        "cardtype": "Scheme",
+        "text": "Toss cards from the top of your Arsenal until you find a Machine card. Put that card into your hand."
+    },
+    {
+        "cardname": "Scour the Sands",
+        "cardtype": "Scheme",
+        "text": "Blow up one of your Mooks as a cost. If you do, blow up target Machine.\n\nWhen you take this Scheme as a Backup Plan, you can reveal it to play it immediately, ignoring its costs."
+    },
+    {
+        "cardname": "Scout Platform",
+        "cardtype": "Base",
+        "text": "Each player plays with the top card of their Arsenal revealed."
+    },
+    {
+        "cardname": "Secret Agent Mook",
+        "cardtype": "Mook",
+        "type": "Agent",
+        "text": "Skilled Attacker\n\nWhen this Mook assaults a player successfully, remove up to one card from under target Blueprint they control.",
+        "threat_level": "5",
+        "image": "/card_art/secret_agent_mook.png"
+    },
+    {
+        "cardname": "Secret Mountain Alcove",
+        "cardtype": "Base",
+        "text": "You don't lose the game because of abilities."
+    },
+    {
+        "cardname": "Self Destruct",
+        "cardtype": "Scheme",
+        "text": "Play only when you're successfully assaulted.\n\nBlow up target Mook that assaulted you. Draw a card."
+    },
+    {
+        "cardname": "Senator Warhawk",
+        "cardtype": "Mook",
+        "type": "Politician",
+        "text": "Unique\n\nOther players must assault during their turn if able, and that assault must be against players that aren't you, if able.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Skill Drain",
+        "cardtype": "Scheme",
+        "text": "Play any time an assault is declared.\n\nUntil end of turn, Mooks lose Skilled Attacker and Skilled Defender."
+    },
+    {
+        "cardname": "Skilled Therapist",
+        "cardtype": "Mook",
+        "type": "Support",
+        "text": "Whenever a Mook you control becomes the target of an ability, you can return that Mook to your hand.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Sleep with the Fishes",
+        "cardtype": "Scheme",
+        "text": "Target player liquidates their Mook with the lowest threat level."
+    },
+    {
+        "cardname": "Small Hadron Collider",
+        "cardtype": "Machine",
+        "text": "At the start of your turn, you can blow up this Machine as a cost. If you do, blow up target Machine or Base."
+    },
+    {
+        "cardname": "Sniper Jezail",
+        "cardtype": "Mook",
+        "type": "Soldier",
+        "text": "Skilled Defender (This Mook can't be paired by the assaulting player.)",
+        "threat_level": "8"
+    },
+    {
+        "cardname": "Social Engineering Major",
+        "cardtype": "Mook",
+        "type": "Henchman, Technician",
+        "text": "When this Mook onboards, take control of target Machine.",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Sorting Machine",
+        "cardtype": "Machine",
+        "text": "When you fabricate this Machine, look at the top three cards of your Arsenal and put them back in any order."
+    },
+    {
+        "cardname": "Space Station",
+        "cardtype": "Base",
+        "text": "You can only be assaulted by three or fewer Mooks.\n\nYou cannot hire a Mook unless you have more Machines than Mooks."
+    },
+    {
+        "cardname": "Space Suit Test Dummy",
+        "cardtype": "Mook",
+        "type": "Support, Technician",
+        "text": "This Mook isn't blown up by combat with Mooks of Threat Level 6 or higher.",
+        "threat_level": "3"
+    },
+    {
+        "cardname": "Spec Ops Agent",
+        "cardtype": "Mook",
+        "type": "Commando, Technician",
+        "text": "Whenever this Mook assaults, you can blow up a Mook, Machine, or Base (do this before the defender declares whether or not they're blocking).",
+        "faction": "Mercs",
+        "threat_level": "8"
+    },
+    {
+        "cardname": "Spy Plane",
+        "cardtype": "Machine",
+        "text": "Requires 1 Mook\n\nOnce per turn, you can look at target facedown Machine, then flip this Machine facedown.",
+        "image": "/card_art/spy_plane.png"
+    },
+    {
+        "cardname": "Steal Inheritance",
+        "cardtype": "Scheme",
+        "text": "Discard a card as a cost.\n\nDraw three cards.",
+        "image": "/card_art/steal_inheritance.png"
+    },
+    {
+        "cardname": "Steve Gunman",
+        "cardtype": "Mook",
+        "type": "Soldier, Agent",
+        "text": "The first time you assault unsuccessfully each turn, you can declare \"I'll be back\". If you do, you can assault again this turn.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "Strategic Genius",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "At the start of your turn, if you control 7 or more bases with different names, you win the game.",
+        "factionPressureAbility": "Once per game, if you've got no cards in your hand, draw three cards.",
+        "factionStaticAbility": "Your Mooks get +1 for each nontoken Mook you've hired this turn.",
+        "factionFlavorText": "How do we win? Easy. The killbots have a preset kill limit. We'll simply throw men at them until they reach that limit.",
+        "faction": "Mercs"
+    },
+    {
+        "cardname": "Study the Enemy",
+        "cardtype": "Scheme",
+        "text": "Name a card type, then target enemy reveals the top three cards of their Arsenal. If any of those cards are of the chosen type, you draw a card. Then that player shuffles."
+    },
+    {
+        "cardname": "Suit Distributor",
+        "cardtype": "Machine",
+        "text": "Your Mooks are also Henchmen."
+    },
+    {
+        "cardname": "Super Villain",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "You start the game with a Blueprint from your Arsenal in play.",
+        "factionPressureAbility": "Once per game, the next Scheme you play this turn has no costs and can't be stopped.",
+        "factionStaticAbility": "Whenever another player plays a Scheme that targets one or more of your Blueprints, draw a card.",
+        "factionFlavorText": "I will destroy the entire city, unless you pay me... one million dollars!",
+        "faction": "Mad Scientist",
+        "image": "/card_art/super_villain.png"
+    },
+    {
+        "cardname": "Test Experimental Weapon",
+        "cardtype": "Scheme",
+        "text": "Liquidate a Machine as a cost. If you do, blow up target Mook.\n\nWhen you take this Scheme as a Backup Plan, you can reveal it to play it immediately, ignoring its costs."
+    },
+    {
+        "cardname": "Thief Mook",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "When this Mook assaults successfully, draw a card.",
+        "threat_level": "4"
+    },
+    {
+        "cardname": "Threaten Endangered Animals",
+        "cardtype": "Scheme",
+        "text": "Search your Arsenal for up to three Machines. Choose one of them in secret and put it facedown. After you shuffle, put the rest on top in any order."
+    },
+    {
+        "cardname": "Tony Contralto, Mob Dictator",
+        "cardtype": "Mook",
+        "type": "Leader, Henchman",
+        "text": "Unique\n\nOther Henchmen you control can't be targeted by the abilities of Mooks you don't control.\n\n🔘Target Henchman gets +5 until end of turn.",
+        "threat_level": "5"
+    },
+    {
+        "cardname": "Twinned Siblings",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "When this Mook onboards, hire a token Mook.",
+        "threat_level": "5",
+        "image": "/card_art/twinned_siblings.png"
+    },
+    {
+        "cardname": "Underwater Bubble Dome",
+        "cardtype": "Base",
+        "text": "You can't be assaulted by Robots or Cyborgs.\n\nAt the start of your turn, you can liquidate a Machine. If you do, draw a card."
+    },
+    {
+        "cardname": "Unethical Head Hunter",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "When this Mook onboards, you can reveal the top five cards of your Arsenal. If you do, put a Mook from among them into your hand and the rest on the bottom in any order.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Unguarded Shark Tank",
+        "cardtype": "Machine",
+        "text": "Whenever an enemy declares an assault, choose target Mook that player controls. That player may discard a card. If they don't, that Mook can't assault this turn."
+    },
+    {
+        "cardname": "Unlicensed Disintegration",
+        "cardtype": "Scheme",
+        "text": "Blow up target Machine, then draw a card. Then discard a card if it wasn't your Machine.",
+        "image": "/card_art/unlicensed_disintegration.png"
+    },
+    {
+        "cardname": "Unstoppable Giant Robot",
+        "cardtype": "Blueprint",
+        "text": "At the start of your turn, put one of your Machines under this Blueprint. Then, if this card has six or more Machines under it, it becomes a Mook with Threat Level 32, and has \"When this Mook assaults successfully, the defending player loses the game.\""
+    },
+    {
+        "cardname": "Vaccination Conspiracist",
+        "cardtype": "Mook",
+        "type": "Goon",
+        "text": "Immune to Scientists\n\nWhile this Mook is assaulting, defending Mooks get -1 from disease.",
+        "threat_level": "6"
+    },
+    {
+        "cardname": "Vampire Cosplayer",
+        "cardtype": "Mook",
+        "type": "Cultist, Agent",
+        "text": "When this Mook onboards, blow up another target Mook with lower threat level. If you do, that Mook's controller draws a card.",
+        "threat_level": "7"
+    },
+    {
+        "cardname": "Villainous Lapcat",
+        "cardtype": "Mook",
+        "type": "Henchman",
+        "text": "Whenever you would take a Backup Plan, you can put this card on top of your Backup Plans faceup instead. If you do, draw a card.",
+        "threat_level": "3",
+        "faction": "Mad Scientist",
+        "image": "/card_art/villainous_lapcat.png"
+    },
+    {
+        "cardname": "Weather Control Device",
+        "cardtype": "Blueprint",
+        "text": "At the start of your turn, put the top card of your Arsenal under this card. Then, if this card has three or more Schemes under it, blow up target Base.\n\nAt the end of your turn, if this card has 8 or more Machines under it, you win the game."
+    },
+    {
+        "cardname": "WMD Enthusiast",
+        "cardtype": "Mook",
+        "type": "Support, Goon",
+        "text": "When this Mook onboards, blow up all Mooks. Until end of turn, whenever a Mook onboards, it's blown up by radiation.",
+        "threat_level": "4",
+        "image": "/card_art/wmd_enthusiast.png"
+    },
+    {
+        "cardname": "Wonder Hunter",
+        "cardtype": "Mook",
+        "type": "Scientist, Support",
+        "text": "Your Scientists get +2.",
+        "threat_level": "4",
+        "image": "/card_art/wonder_hunter.png"
+    }
+]
