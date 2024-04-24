@@ -230,7 +230,8 @@
     {
         "cardname": "Discount Quantum Singularity",
         "cardtype": "Machine",
-        "text": "Unique\n\nThis Machine counts towards one requirement of any type.\n\nWhenever you hire a Mook that has a requirement, draw a card."
+        "text": "Unique\n\nThis Machine counts toward one requirement of any type.\n\nThe first time you hire a Mook that has a requirement during your turn, draw a card.",
+        "image": "discount_quantum_singularity.png"
     },
     {
         "cardname": "Distraction Fabricator",
@@ -298,7 +299,8 @@
     {
         "cardname": "Evil Supercomputer",
         "cardtype": "Machine",
-        "text": "You can play an extra Scheme each turn."
+        "text": "You can play an extra Scheme each turn.",
+        "image": "evil_supercomputer.png"
     },
     {
         "cardname": "Experimental Portal Donation",
@@ -433,6 +435,12 @@
         "cardtype": "Machine",
         "text": "Whenever you draw your first card each turn, you can discard a card. If you do, draw a card.",
         "image": "hamster_treadmill.png"
+    },
+    {
+        "cardname": "Hand Out RPGs",
+        "cardtype": "Scheme",
+        "text": "Until end of turn, whenever one of your Mooks assaults, blow up target Machine.",
+        "image": "hand_out_rpgs.png"
     },
     {
         "cardname": "Haunted Castle",
@@ -576,7 +584,8 @@
     {
         "cardname": "Laser Grid Defense",
         "cardtype": "Machine",
-        "text": "Whenever an enemy assaults you with more than three Mooks, you can blow up this Machine as a cost before declaring defenders. If you do, blow up target Mook that's assaulting you."
+        "text": "Whenever an enemy assaults you with more than three Mooks, you can blow up this Machine as a cost before declaring defenders. If you do, blow up target Mook that's assaulting you.",
+        "image": "laser_grid_defense.png"
     },
     {
         "cardname": "Lasergun Enforcer",
@@ -774,7 +783,7 @@
         "cardname": "Quickdraw Cowboy",
         "cardtype": "Mook",
         "type": "Henchman",
-        "text": "Unique\nSlippery <i class=\"reminder_text\">(This Mook can't be blown up by combat.)</i>",
+        "text": "Unique\nSlippery <i class=\"reminder_text\">(This Mook escapes combat if it would lose.)</i>",
         "threat_level": "5",
         "image": "quickdraw_cowboy.png"
     },
@@ -818,6 +827,15 @@
         "text": "Requires Turn 6 or later\n\nUnique\nSkilled Attacker\nSkilled Defender\n\nWhenever this Mook assaults alone, it can't be blocked.",
         "faction": "Mercs",
         "threat_level": "8"
+    },
+    {
+        "cardname": "Samantha Rax, Neurotoxicologist",
+        "cardtype": "Mook",
+        "type": "Leader, Agent, Cultist",
+        "text": "Unique\nSlippery <i class=\"reminder_text\">(This Mook escapes combat if it would lose.)</i>\n\nWhen this Mook escapes combat, blow up the Mooks it was blocking or blocked by.\n\nYour Mooks are immune to poison.",
+        "threat_level": "4",
+        "faction": "Mad Scientist",
+        "image": "sam_anthrax.png"
     },
     {
         "cardname": "Satellite Backup",
