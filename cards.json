@@ -239,11 +239,6 @@
         "text": "Whenever an enemy declares an assault, you can target one of their Mooks. If you do, that Mook can't assault this turn."
     },
     {
-        "cardname": "DMXorcist's Social Security Number",
-        "cardtype": "Scheme",
-        "text": "***-***-****"
-    },
-    {
         "cardname": "Do Not Fail Me",
         "cardtype": "Scheme",
         "text": "You can play this whenever one of your Mooks is targeted or blocks.\n\nTarget Mook gets +6 until end of turn."
