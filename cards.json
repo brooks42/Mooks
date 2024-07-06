@@ -84,7 +84,7 @@
     {
         "cardname": "Automatic Jumpscare",
         "cardtype": "Machine",
-        "text": "When you fabricate this Machine, target a Mook. It can't assault or block as long as you have Automatic Jumpscare.\n\nWhen that Mook is blown up, blow up this Machine."
+        "text": "When you fabricate this Machine, target a Mook. It can't assault or block as long as you have Automatic Jumpscare.\n\nWhen that Mook is blown up, liquidate this Machine."
     },
     {
         "cardname": "Average TV Pundit",
@@ -177,7 +177,7 @@
         "cardname": "Cutthroat Futurist",
         "cardtype": "Faction",
         "text": "",
-        "factionAbility": "When you would draw a card, you can <b>exploit</b> instead. To exploit, reveal the top card of your Arsenal and put it under one of your Mooks or Machines.",
+        "factionAbility": "When you would draw a card, you <b>exploit</b> instead. To exploit, reveal the top card of your Arsenal and put it under one of your Mooks or Machines, or into your hand. When you exploit an empty Arsenal, you win the game.",
         "factionPressureAbility": "Once per game, choose two target machines. Blow up one of them and steal the other.",
         "factionStaticAbility": "Your Mooks get +1 for each card under them.",
         "factionFlavorText": "Look, we just have to sell another million... billion... trillion copies!",
@@ -219,7 +219,7 @@
     {
         "cardname": "Deepweb Search",
         "cardtype": "Scheme",
-        "text": "Search your Arsenal for a Mook with Threat Level 4 or less, or a Machine. Put that card into your hand, then shuffle and toss two cards from the top of your Arsenal."
+        "text": "Search your Arsenal for a Mook with Threat Level 4 or less, or a Machine, and put it into your hand. Toss two cards from the top of your Arsenal."
     },
     {
         "cardname": "Defenestrate",
@@ -276,8 +276,9 @@
         "cardname": "Dragon Cosplayer",
         "cardtype": "Mook",
         "type": "Goon",
-        "text": "When this Mook onboards, put the top two cards of your Arsenal under it.\n\nThis Mook gets +1 for each card under it.",
-        "threat_level": "5"
+        "text": "When this Mook onboards, put the top two cards of your Arsenal under it.\n\nThis Mook gets +2 for each card under it.",
+        "threat_level": "5",
+        "image": "dragon_cosplayer.png"
     },
     {
         "cardname": "Drone Pilot",
@@ -327,19 +328,19 @@
         "image": "evil_supercomputer.png"
     },
     {
+        "cardname": "Executive Director",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "When you would draw a card, you <b>exploit</b> instead. To exploit, reveal the top card of your Arsenal and put it under one of your Mooks or Machines, or into your hand. When you exploit an empty Arsenal, you win the game.",
+        "factionPressureAbility": "Once per game, steal target unique Mook.",
+        "factionStaticAbility": "Whenever you take a Backup Plan, you can exploit after.",
+        "factionFlavorText": "For our next movie, we'll blot out the sun with a giant ad! Think of the profits!",
+        "faction": "Corporation"
+    },
+    {
         "cardname": "Experimental Portal Donation",
         "cardtype": "Scheme",
         "text": "Discard two cards as a cost. Draw two cards.\n\nWhen you take this Scheme as a Backup Plan, you can reveal it to play it immediately, ignoring its costs."
-    },
-    {
-        "cardname": "exploitative dick",
-        "cardtype": "Faction",
-        "text": "",
-        "factionAbility": "When you would draw a card, you <b>exploit</b> instead. To exploit, reveal the top card of your Arsenal and put it under one of your Mooks or Machines, or into your hand.",
-        "factionPressureAbility": "Once per game, exploit 3.",
-        "factionStaticAbility": "",
-        "factionFlavorText": "Look, we just have to sell another million... billion... trillion copies!",
-        "faction": "Corporation"
     },
     {
         "cardname": "Exponential Scheme",
@@ -415,7 +416,7 @@
     {
         "cardname": "Generic Radicalist",
         "cardtype": "Mook",
-        "type": "Goon",
+        "type": "Goon, Cultist",
         "text": "When this Mook onboards, target player tosses the top three cards of their Arsenal.",
         "threat_level": "5"
     },
@@ -509,7 +510,7 @@
     {
         "cardname": "Hold for Ransom",
         "cardtype": "Scheme",
-        "text": "Put this card under target Mook and steal it. It can't declare an assault or use its activated effects.\n\nWhenever its owner would draw a card, they can have you draw two cards instead. If they do, put this card in the Garbage Pile and this effect ends."
+        "text": "Put this card under target Mook that isn't yours and steal it. It can't declare an assault or use its activated effects.\n\nWhenever its owner would draw a card, they can have you draw two cards instead. If they do, put this card in the Garbage Pile and this effect ends."
     },
     {
         "cardname": "Hot Potato Goon",
@@ -538,22 +539,22 @@
         "text": "You can liquidate Mooks instead of other card types to pay costs.\n\nWhenever you liquidate one or more Mooks to pay a cost, reveal cards from the top of your Arsenal until you reveal a Mook. Put it into your hand and the rest on the bottom in any order."
     },
     {
-        "cardname": "Immoral Executive",
-        "cardtype": "Faction",
-        "text": "",
-        "factionAbility": "When you would draw a card, you <b>exploit</b> instead. To exploit, reveal the top card of your Arsenal and put it under one of your Mooks or Machines, or into your hand.",
-        "factionPressureAbility": "Once per game, exploit 3.",
-        "factionStaticAbility": "",
-        "factionFlavorText": "Look, we just have to sell another million... billion... trillion copies!",
-        "faction": "Corporation"
-    },
-    {
         "cardname": "Indomitable Mook",
         "cardtype": "Mook",
         "type": "Goon",
         "text": "This Mook has Threat Level 6.",
         "threat_level": "6",
         "image": "indomitable_mook.png"
+    },
+    {
+        "cardname": "Industrial Fatcat",
+        "cardtype": "Faction",
+        "text": "",
+        "factionAbility": "When you would draw a card, you <b>exploit</b> instead. To exploit, reveal the top card of your Arsenal and put it under one of your Mooks or Machines, or into your hand. When you exploit an empty Arsenal, you win the game.",
+        "factionPressureAbility": "Once per game, search your Arsenal for a Machine and put it facedown. You can fabricate it this turn.",
+        "factionStaticAbility": "Whenever a player fabricates a Machine, exploit.",
+        "factionFlavorText": "What do you mean the water is \"poison\"? A little runoff is good for the humors.",
+        "faction": "Corporation"
     },
     {
         "cardname": "Industrial Wasp Nest",
@@ -697,7 +698,7 @@
         "cardtype": "Mook",
         "type": "Scientist",
         "faction": "Mad Scientist",
-        "text": "Requires 6 Scheme cards in your Garbage Pile\n\nUnique\n\nOnce per turn, you can reveal cards from the top of your Arsenal until you reveal a Scheme. Put that card into your hand and the rest on the bottom in any order.",
+        "text": "Requires 6 or more Schemes in your Garbage Pile\n\nUnique\n\nOnce per turn, you can reveal cards from the top of your Arsenal until you reveal a Scheme. Put that card into your hand and the rest on the bottom in any order.",
         "threat_level": "8",
         "image": "mook_mastermind.png"
     },
@@ -705,8 +706,8 @@
         "cardname": "Mook Teamlead",
         "cardtype": "Mook",
         "type": "Support, Henchman",
-        "text": "This Mook gets +1 for each of your other Mooks.",
-        "threat_level": "3",
+        "text": "This Mook gets +2 for each of your other Mooks.",
+        "threat_level": "4",
         "image": "mook_teamlead.png"
     },
     {
@@ -747,7 +748,7 @@
         "cardname": "Octopus Trainer",
         "cardtype": "Mook",
         "type": "Support",
-        "text": "Enemy Mooks have +1 to their requirements.\n\nWhenever you hire a nontoken Mook, you can discard a card. If you do, hire a token Mook.",
+        "text": "Enemy Mooks have +1 to each of their requirements.\n\nWhenever you hire a nontoken Mook, you can discard a card. If you do, hire a token Mook.",
         "threat_level": "5",
         "image": "octopus_trainer.png"
     },
@@ -795,15 +796,21 @@
         "text": "",
         "factionAbility": "At the start of the game, vote for who takes control. While you're in control, you draw an additional card at the start of your turn.",
         "factionPressureAbility": "Once per game, take control. If you do, your Mooks get +2 until your next turn.",
-        "factionStaticAbility": "If you start your turn in control, have 5 or more Mooks and have the most Mooks, you win the game.",
+        "factionStaticAbility": "If you start your turn in control, have 7 or more Mooks and have the most Mooks, you win the game.",
         "factionFlavorText": "Of course I'm the rightful ruler! Just ask the people I work for.",
         "faction": "Government"
+    },
+    {
+        "cardname": "Put Your Brain In A Jar",
+        "cardtype": "Scheme",
+        "text": "Put this card under one of your machines. As long as this card is under that machine, you don't have to take backup plans. When this card is put into your trash heap, you lose the game from being dropped.",
+        "image": "put_your_brain_in_a_jar.png"
     },
     {
         "cardname": "Queen of Criminality",
         "cardtype": "Mook",
         "type": "Leader, Goon",
-        "text": "Requires 2 Mooks\n\nUnique\n\nAt the end of your turn, any player can discard a card. If no one does, blow up target Machine and draw a card.",
+        "text": "Requires 2 Mooks\n\nUnique\n\nAt the end of your turn, any player can discard a card. If no one does, you can blow up target Machine and draw a card.",
         "threat_level": "8",
         "faction": "Mad Scientist",
         "image": "queen_of_criminality.png"
@@ -838,7 +845,7 @@
     {
         "cardname": "Reveal Conspiracy",
         "cardtype": "Scheme",
-        "text": "Target enemy shuffles their hand into their Arsenal, then reveals that many cards plus two from the top. Separate the cards into two piles. They choose one pile, and toss the other.",
+        "text": "Target enemy shuffles their hand into their Arsenal, then reveals that many cards plus two from the top. Separate the cards into two piles. They choose one pile and put it into their hand, then toss the other.",
         "image": "reveal_conspiracy.png"
     },
     {
@@ -874,11 +881,12 @@
     {
         "cardname": "Scale Down",
         "cardtype": "Scheme",
-        "text": "Each player chooses and blows up one of their Mooks, Bases, or Machines."
+        "text": "Each player liquidates a Mook, Base, or Machine."
     },
     {
         "cardname": "Scavenge for Parts",
         "cardtype": "Scheme",
+        "faction": "Mad Scientist",
         "text": "Toss cards from the top of your Arsenal until you find a Machine card. Put that card into your hand."
     },
     {
@@ -902,7 +910,7 @@
     {
         "cardname": "Secret Mountain Alcove",
         "cardtype": "Base",
-        "text": "You don't lose the game because of abilities."
+        "text": "You don't lose the game because of abilities.\n\nWhen you're assaulted successfully, liquidate this Base and draw a card."
     },
     {
         "cardname": "Self Destruct",
@@ -936,13 +944,13 @@
     {
         "cardname": "Small Hadron Collider",
         "cardtype": "Machine",
-        "text": "At the start of your turn, you can blow up this Machine as a cost. If you do, blow up target Machine or Base."
+        "text": "At the start of your turn, you can liquidate this Machine as a cost. If you do, blow up target Machine or Base."
     },
     {
         "cardname": "Sniper Jezail",
         "cardtype": "Mook",
         "type": "Soldier",
-        "text": "Skilled Defender (This Mook can't be paired by the assaulting player.)",
+        "text": "Skilled Defender <i class=\"reminder_text\">(This Mook can't be paired by the assaulting player.)</i>",
         "threat_level": "8"
     },
     {
@@ -1051,6 +1059,11 @@
         "cardtype": "Scheme",
         "text": "Search your Arsenal for up to three Machines. Choose one of them in secret and put it facedown. After you shuffle, put the rest on top in any order.",
         "image": "threaten_endangered_animals.png"
+    },
+    {
+        "cardname": "Tie To The Train Tracks",
+        "cardtype": "Scheme",
+        "text": "Until your next turn, enemies can't declare an assault against you unless they let you draw a card."
     },
     {
         "cardname": "Tony Contralto, Mob Dictator",
