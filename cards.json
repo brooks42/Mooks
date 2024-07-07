@@ -510,7 +510,7 @@
     {
         "cardname": "Hold for Ransom",
         "cardtype": "Scheme",
-        "text": "Put this card under target Mook that isn't yours and steal it. It can't declare an assault or use its activated effects.\n\nWhenever its owner would draw a card, they can have you draw two cards instead. If they do, put this card in the Garbage Pile and this effect ends."
+        "text": "Put this card under target Mook that isn't yours and steal it. It can't declare an assault, defend, or use its activated effects.\n\nWhenever its owner would draw a card, they can have you draw two cards instead. If they do, put this card in the Garbage Pile and this effect ends."
     },
     {
         "cardname": "Hot Potato Goon",
@@ -803,7 +803,7 @@
     {
         "cardname": "Put Your Brain In A Jar",
         "cardtype": "Scheme",
-        "text": "Put this card under one of your machines. As long as this card is under that machine, you don't have to take backup plans. When this card is put into your trash heap, you lose the game from being dropped.",
+        "text": "Put this card under one of your Machines. As long as this card is under that Machine, you don't have to take Backup Plans. When this card is put into your Garbage Pile, you lose the game from being dropped.",
         "image": "put_your_brain_in_a_jar.png"
     },
     {
