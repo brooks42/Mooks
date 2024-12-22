@@ -45,7 +45,8 @@
         "cardname": "Apply Phlebotinum",
         "cardtype": "Scheme",
         "text": "Exchange up to three cards from your hand with that many cards from under any of your blueprints.",
-        "faction": "Mad Scientist"
+        "faction": "Mad Scientist",
+        "image": "apply_phlebotinum.png"
     },
     {
         "cardname": "Arctic Ice Fortress",
@@ -77,7 +78,8 @@
         "cardtype": "Mook",
         "type": "Goon, Agent",
         "text": "Your mooks can't be stolen.\n\nOnce per turn, when you declare an operation, you can have target enemy mook join one of your operations this turn, even if they're already away.",
-        "threat_level": "4"
+        "threat_level": "4",
+        "image": "average_tv_pundit.png"
     },
     {
         "cardname": "Big Wrench Hench",
