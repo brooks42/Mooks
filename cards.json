@@ -159,14 +159,14 @@
     {
         "cardname": "Discount Quantum Singularity",
         "cardtype": "Machine",
-        "text": "This machine counts toward one requirement of any type.\n\nThe first time you hire a mook that has a requirement during each turn, draw a card.",
+        "text": "This machine can count toward one requirement of any type.\n\nThe first time you hire a mook that has a requirement during each turn, draw a card.",
         "unique": true,
         "image": "discount_quantum_singularity.png"
     },
     {
         "cardname": "Drafting Machine",
         "cardtype": "Machine",
-        "text": "Whenever you would draw a card, you can liquidate this machine instead. If you do, search your arsenal for a blueprint and play it, then shuffle."
+        "text": "Whenever you would draw a card, you can liquidate this machine instead. If you do, search your arsenal for a blueprint and play it with this card under it, then shuffle."
     },
     {
         "cardname": "Dragon Cosplayer",
@@ -260,7 +260,8 @@
         "type": "Soldier",
         "text": "Immune to poison.",
         "operation": "<b>Operation Onion Cloud (6) —</b> Target mook gets -4 from poison until end of turn.",
-        "threat_level": "6"
+        "threat_level": "6",
+        "image": "gas_mask_mook.png"
     },
     {
         "cardname": "Generic Radicalist",
@@ -272,13 +273,7 @@
     {
         "cardname": "Genetic Experiment Vat",
         "cardtype": "Machine",
-        "text": "Whenever you draw a card, you can liquidate this machine and a mook. If you do, reveal cards from the top of your arsenal until you reveal a unique mook. Hire the revealed mook, ignoring its requirements, then bottom the rest."
-    },
-    {
-        "cardname": "Ghost Gun Fabricator",
-        "cardtype": "Machine",
-        "text": "Whenever an enemy starts an operation, you can liquidate this machine. If you do, target mook gets +7 until end of turn.",
-        "operation": "<b>Operation Deliberate Misfire (20) —</b> Blow up target mook that's away."
+        "text": "Whenever you would draw a card, you can liquidate this machine and a mook instead. If you do, reveal cards from the top of your arsenal until you reveal a unique mook. Hire the revealed mook, ignoring its requirements, then bottom the rest."
     },
     {
         "cardname": "Gifted Programmer",
@@ -479,16 +474,9 @@
         "image": "mind_control_device.png"
     },
     {
-        "cardname": "Minigun Mook",
-        "cardtype": "Mook",
-        "type": "Soldier",
-        "text": "Requires 1 mook, 1 machine\n\nWhile this mook is at home, the first time you're targeted by an operation each turn, this mook gets +4 until end of turn. Then blow up any operatives with threat level equal to or lower than this mook's.",
-        "threat_level": "4"
-    },
-    {
         "cardname": "Minion Fabricator",
         "cardtype": "Machine",
-        "text": "Once per turn, whenever you hire a nontoken mook, hire a token mook.\n\nYour tokens mooks have Threat Level 3."
+        "text": "Once per turn, whenever you hire a nontoken mook, hire a token mook."
     },
     {
         "cardname": "Mook Lobbyist",
@@ -638,8 +626,8 @@
         "cardname": "Rocket Trooper",
         "cardtype": "Mook",
         "type": "Soldier",
-        "text": "Requires 1 machine\n\nWhenever an enemy starts an operation, this mook gets +8 until end of turn. Then, you can blow up target operative with equal or lower threat level.",
-        "threat_level": "2",
+        "text": "Requires 1 machine\n\nWhenever an enemy starts an operation, this mook gets +2 until end of turn. Then, you can blow up target operative with equal or lower threat level.",
+        "threat_level": "3",
         "image": "rocket_trooper.png"
     },
     {
