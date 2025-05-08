@@ -11,14 +11,15 @@
         "cardtype": "Mook",
         "type": "Agent",
         "text": "This mook gets +1 for every mook in the trash.",
-        "operation": "<b>Operation Kill Kit (10) —</b> Blow up target mook with lower threat level than the combined threat level of the operatives.",
+        "operation": "<b>Operation Kill Kit (12) —</b> Blow up target mook if its threat level is lower than the total threat level of this operation.",
         "threat_level": "3",
-        "archetype": "Evil is Fun"
+        "archetype": "Evil is Fun",
+        "image": "actual_serial_killer.png"
     },
     {
         "cardname": "Advantage Fabricator",
         "cardtype": "Machine",
-        "text": "At the start of your turn, put the top card of your arsenal under this card. Then if this card has 2 or more cards under it, liquidate it and put those cards into your hand.",
+        "text": "At the start of your turn, tuck the top card of your arsenal under this card. Then if this card has 2 or more cards under it, liquidate it and put those cards into your hand.",
         "archetype": "Mob Stuff"
     },
     {
@@ -36,7 +37,7 @@
         "cardname": "Alien Crash Site",
         "cardtype": "Base",
         "text": "Your scientists get +2 for each card under this base.",
-        "operation": "<b>Operation Welcome to Earth (16) —</b> Put one of your machines under one of your bases, mooks, or blueprints. If you have no machines, hire a token mook instead.",
+        "operation": "<b>Operation Welcome to Earth (16) —</b> Tuck one of your machines under one of your bases, mooks, or blueprints. If you have no machines, hire a token mook instead.",
         "archetype": "Movie Villain",
         "image": "alien_crash_site.png"
     },
@@ -83,7 +84,7 @@
         "cardname": "Basement Hacker Den",
         "cardtype": "Base",
         "faction": "Mad Scientist",
-        "text": "Whenever you assemble a blueprint, first declare a card type. If the card you assemble with isn't the declared type, you can put the top card of your arsenal under that same blueprint.",
+        "text": "You can't assemble from your trash.\n\nWhenever you assemble a blueprint, first declare a card type. If you exchange any cards, and none are of the declared type, you can tuck the top card of your arsenal under that blueprint.",
         "archetype": "Movie Villain"
     },
     {
@@ -105,7 +106,7 @@
     {
         "cardname": "Bootleg Satellite Hookup",
         "cardtype": "Machine",
-        "text": "Enemies can't target your other machines.\n\nWhen this machine is blown up, you can put it under one of your mooks, blueprints, or bases. If you don't, draw a card.",
+        "text": "Enemies can't target your other machines.\n\nWhen this machine is blown up, you can tuck it under one of your mooks, blueprints, or bases. If you don't, draw a card.",
         "archetype": "Freedom Fighters"
     },
     {
@@ -168,8 +169,8 @@
     {
         "cardname": "Death Ray",
         "cardtype": "Blueprint",
-        "text": "At the start of your turn, put the top card of your arsenal under this card.",
-        "operation": "<b>Operation Fire the Death Ray (20) —</b> If this card has 4 or more machines under it, blow up any non-blueprint target. Then, if this card also has at least 1 base and least 1 scheme under it, you win the game.",
+        "text": "At the start of your turn, tuck the top card of your arsenal under this card.",
+        "operation": "<b>Operation Fire the Death Ray (20) —</b> If this card has 4 or more machines under it, remove one of them and blow up any non-blueprint target. Then, if this card also has at least 1 base and least 1 scheme under it, target player loses the game.",
         "faction": "Mad Scientist",
         "image": "death_ray.png"
     },
@@ -208,7 +209,7 @@
     {
         "cardname": "Drafting Machine",
         "cardtype": "Machine",
-        "text": "When you assemble a blueprint, look at the top 3 cards of your arsenal, put one of them under that blueprint, and bottom the rest. Then bottom a card from under that blueprint.",
+        "text": "When you assemble a blueprint, look at the top 3 cards of your arsenal, tuck one of them under that blueprint, and bottom the rest. Then bottom a card from under that blueprint.",
         "archetype": "Freedom Fighters",
         "image": "drafting_machine.png"
     },
@@ -216,7 +217,7 @@
         "cardname": "Dragon Cosplayer",
         "cardtype": "Mook",
         "type": "Goon",
-        "text": "When this mook onboards, put the top two cards of your arsenal under it.\n\nThis mook gets +2 for each card under it.",
+        "text": "When this mook onboards, tuck the top two cards of your arsenal under it.\n\nThis mook gets +2 for each card under it.",
         "threat_level": "4",
         "archetype": "Hyjinks",
         "image": "dragon_cosplayer.png"
@@ -279,7 +280,7 @@
         "cardname": "Fake My Death",
         "cardtype": "Scheme",
         "faction": "Mad Scientist",
-        "text": "Play only when you're targeted by an enemy ability or operation.\n\nStop it. Search your arsenal for a base and play it as your new active base.",
+        "text": "Play only when you're targeted by an enemy operation.\n\nStop it. Search your arsenal for a base and play it as your new active base.",
         "archetype": "Hyjinks",
         "image": "fake_my_death.png"
     },
@@ -349,7 +350,7 @@
         "cardname": "Grant Luck, Opportunist",
         "cardtype": "Mook",
         "type": "Agent",
-        "text": "When this mook onboards, put the top 2 cards of your arsenal under it.\n\nWhenever you would draw a card, you can put a card from under this card into your hand instead.",
+        "text": "When this mook onboards, tuck the top 2 cards of your arsenal under it.\n\nWhenever you would draw a card, you can put a card from under this card into your hand instead.",
         "unique": true,
         "threat_level": "7",
         "archetype": "Freedom Fighters",
@@ -409,7 +410,7 @@
     {
         "cardname": "Hold for Ransom",
         "cardtype": "Scheme",
-        "text": "Put this card under target enemy mook and steal it. It can't start or join operations or use any abilities.\n\nWhenever its owner would draw a card, they can have you draw two cards instead. If they do, put this card in the garbage pile and this ability ends.",
+        "text": "Steal target mook and tuck this card under it. It can't start or join operations or use any abilities.\n\nWhenever its owner would draw a card, they can have you draw two cards instead. If they do, put this card in the trash and this ability ends.",
         "archetype": "Mob Stuff"
     },
     {
@@ -566,8 +567,8 @@
     {
         "cardname": "Mind Control Device",
         "cardtype": "Blueprint",
-        "text": "",
-        "operation": "<b>Operation Psychic Dominator (12) —</b> Steal target mook with threat level lower than the number of cards under this card. Then if there are 8 or more mooks and they're all yours, you win the game.",
+        "text": "At the start of your turn, tuck the top card of your arsenal under this card.",
+        "operation": "<b>Operation Psychic Dominator (36) —</b> Steal target mook with threat level lower than the number of cards under this card. Then if there are 8 or more mooks and they're all yours, you win the game.",
         "image": "mind_control_device.png"
     },
     {
@@ -589,7 +590,7 @@
         "cardtype": "Mook",
         "type": "Scientist",
         "faction": "Mad Scientist",
-        "text": "Requires 4 or more schemes in your garbage pile",
+        "text": "Requires 4 or more schemes in your trash",
         "operation": "<b>Operation Plan For Domination (12) —</b> Reveal cards from the top of your arsenal until you reveal a scheme. Put that card into your hand and bottom the rest.",
         "unique": true,
         "threat_level": "8",
@@ -601,7 +602,7 @@
         "cardtype": "Mook",
         "type": "Support, Henchman",
         "text": "This mook gets +2 for each of your other mooks.",
-        "operation": "<b>Operation Dine In (12) —</b> Blow up target mook.",
+        "operation": "<b>Operation Dine In (30) —</b> Blow up target mook.",
         "threat_level": "4",
         "archetype": "Mob Stuff",
         "image": "mook_teamlead.png"
@@ -677,7 +678,7 @@
         "cardname": "Professor Kismet",
         "cardtype": "Mook",
         "type": "Scientist",
-        "text": "When this mook onboards, bottom your hand and draw that many cards. If you didn't draw any cards this way, put the top card of your arsenal under one of your blueprints.",
+        "text": "When this mook onboards, bottom your hand and draw that many cards. If you didn't draw any cards this way, tuck the top card of your arsenal under one of your blueprints.",
         "unique": true,
         "threat_level": "7",
         "faction": "Mad Scientist",
@@ -956,8 +957,8 @@
     {
         "cardname": "Unstoppable Giant Robot",
         "cardtype": "Blueprint",
-        "text": "",
-        "operation": "<b>Operation Form Giant Robot (10) —</b> Remove every non-machine card from under this card, then if this card has exactly 6 machines under it remove them all and it becomes a mook with threat level 32 and has \"whenever this mook joins an operation, you may have target player lose the game.\"",
+        "text": "At the start of your turn, tuck the top card of your arsenal under this card.",
+        "operation": "<b>Operation Form Giant Robot (16) —</b> Remove every non-machine card from under this card, then if this card has exactly 6 machines under it remove them all and it becomes a mook with threat level 32 and has \"whenever this mook joins an operation that targets a player, that player loses the game.\"",
         "image": "unstoppable_giant_robot.png"
     },
     {
