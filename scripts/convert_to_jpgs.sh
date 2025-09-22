@@ -2,6 +2,6 @@
 for image in *;
 do 
     if [[ -f $image ]]; then
-        convert "$image" -quality 30 JPEG:"jpegs/${image%.*}.jpeg"
+        convert "$image" -quality 80 JPEG:"jpegs/${image%.*}.jpeg"
     fi
 done
