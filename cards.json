@@ -27,7 +27,7 @@
         "cardname": "Alan Horner, Paleontologist",
         "cardtype": "Mook",
         "type": "Scientist, Support",
-        "text": "As long as you have a base, when this mook joins an operation, you can exchange up to two cards from your hand with that many cards from under one of your blueprints.",
+        "text": "When this mook joins an operation, if you have a base, you can exchange up to two cards from your hand with that many cards from under one of your blueprints.",
         "unique": true,
         "threat_level": "6",
         "faction": "Mad Scientist",
@@ -228,7 +228,7 @@
         "cardname": "Drone Pilot",
         "cardtype": "Mook",
         "type": "Soldier, Technician",
-        "text": "While you have a machine, whenever you start one or more operations, you can hire a token mook.",
+        "text": "Whenever you start one or more operations, if you have a machine, you can hire a token mook.",
         "threat_level": "5",
         "archetype": "Normal Job",
         "image": "drone_pilot.png"
@@ -244,7 +244,7 @@
         "cardname": "Enhanced Employee",
         "cardtype": "Mook",
         "type": "Cyborg, Henchman",
-        "text": "While you have at least 2 mooks and a machine, you can play a second scheme each turn.",
+        "text": "As long as you have at least 2 mooks and a machine, you can play a second scheme each turn.",
         "threat_level": "4",
         "archetype": "Normal Job",
         "image": "enhanced_employee.png"
@@ -276,7 +276,7 @@
     {
         "cardname": "Explosive Distraction",
         "cardtype": "Scheme",
-        "text": "Play this only when an opponent starts an operation. Stop that operation.",
+        "text": "Play this only when an enemy starts an operation. Stop that operation.",
         "archetype": "Mob Stuff",
         "image": "explosive_distraction.png"
     },
@@ -746,7 +746,7 @@
         "cardname": "Rocket Trooper",
         "cardtype": "Mook",
         "type": "Soldier",
-        "text": "Requires 1 machine\n\nWhenever an enemy starts an operation, you can blow up target operative with lower threat level than this mook.",
+        "text": "Requires 1 machine\n\nWhenever an enemy starts an operation, you can blow up target operative from that operation with lower threat level than this mook.",
         "threat_level": "5",
         "archetype": "Freedom Fighters",
         "image": "rocket_trooper.png"
@@ -762,7 +762,7 @@
         "cardname": "Scavenge for Parts",
         "cardtype": "Scheme",
         "faction": "Mad Scientist",
-        "text": "Reveal cards from the top of your arsenal until you reveal two machines. Put those cards into your hand and bottom the rest.",
+        "text": "Reveal cards from the top of your arsenal until you reveal 2 machines. Put those cards into your hand and bottom the rest.",
         "archetype": "Freedom Fighters"
     },
     {
