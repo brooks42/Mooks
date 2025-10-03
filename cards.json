@@ -865,7 +865,7 @@
         "cardname": "Striker Marks, Union Leader",
         "cardtype": "Mook",
         "type": "Henchman",
-        "text": "Requires 3 mooks\n\nOnce each turn, when one of your operations ends in success, resolve it again with the same operatives. You can choose new targets.",
+        "text": "Requires 3 mooks\n\nOnce each turn, when one of your operations is completed successfully, resolve it again with the same operatives. You can choose new targets.",
         "operation": "<b>Operation Cooperation (12) —</b> Assemble one of your blueprints, then draw a card.",
         "unique": true,
         "threat_level": "9",
@@ -977,7 +977,7 @@
     {
         "cardname": "Unstoppable Giant Robot",
         "cardtype": "Blueprint",
-        "text": "At the start of your turn, if Unstoppable Giant Robot has 6 or more cards under it, you can toss them all. If you do, until the end of your next turn, it becomes a mook with threat level 24. If it joins an operation that targets an enemy and that operation ends in success, that player loses the game.",
+        "text": "At the start of your turn, if Unstoppable Giant Robot has 6 or more cards under it, you can toss them all. If you do, until the end of your next turn, it becomes a mook with threat level 24. If it successfully completes an operation that targets an enemy, that player loses the game.",
         "image": "unstoppable_giant_robot.png"
     },
     {
@@ -992,7 +992,7 @@
         "cardname": "Villainous Lapcat",
         "cardtype": "Mook",
         "type": "Henchman",
-        "text": "Whenever an enemy starts an operation that targets you, if this mook is at home, you can liquidate it to stop that operation and blow up one of its operatives.",
+        "text": "Whenever an enemy operation targets you, if this mook is at home, you can liquidate it to stop that operation and blow up one of its operatives.",
         "threat_level": "3",
         "faction": "Mad Scientist",
         "archetype": "Movie Villain",
