@@ -221,7 +221,7 @@
     {
         "cardname": "Conspicuous Trenchcoat",
         "cardtype": "Mook",
-        "text": "When this mook onboards, you can bottom it. If you do, reveal cards from the top of your arsenal until you reveal a mook. Hire that mook, and bottom the rest.",
+        "text": "Requires 1 base or 3 mooks\n\nWhen this mook is blown up, reveal cards from the top of your arsenal until you reveal a mook with a different name. Hire that mook, and bottom the rest.",
         "threat_level": "7",
         "archetype": "Weird Science"
     },
@@ -419,7 +419,7 @@
             "Cyborg",
             "Henchman"
         ],
-        "text": "As long as you have at least 2 mooks and a machine, you can play a second scheme each turn.",
+        "text": "As long as you have at least 2 mooks and a machine, you can play an additional scheme each turn.",
         "threat_level": "4",
         "archetype": "Natural Course",
         "tags": [
@@ -450,7 +450,7 @@
     {
         "cardname": "Evil Supercomputer",
         "cardtype": "Machine",
-        "text": "You can play an extra scheme each turn.",
+        "text": "You can play an additional scheme each turn.",
         "archetype": "Movie Villain",
         "tags": [
             "More Schemes"
@@ -1054,7 +1054,8 @@
     {
         "cardname": "Psychic Investigator",
         "cardtype": "Mook",
-        "text": "Look at the top four cards of your arsenal. Put one of them into your hand, and bottom the rest. You can play another scheme this turn.",
+        "text": "When this mook onboards, look at the top four cards of your arsenal. Put one of them into your hand, and bottom the rest. You can play an additional scheme this turn.",
+        "threat_level": "4",
         "archetype": "Hyjinks",
         "tags": [
             "Card Selection",
