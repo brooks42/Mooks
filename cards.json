@@ -126,7 +126,7 @@
         "type": [
             "Henchman"
         ],
-        "text": "Your mooks can't be stolen.\n\nWhen you start operations, you can have target enemy mook at home join one of your operations.",
+        "text": "Your mooks can't be stolen.\n\nOnce per turn, you can choose target enemy mook at home. Until end of turn, you can start operations using that mook as an operative.",
         "threat_level": "4",
         "archetype": "Normal Job",
         "tags": [
@@ -221,7 +221,7 @@
     {
         "cardname": "Conspicuous Trenchcoat",
         "cardtype": "Mook",
-        "text": "Requires 1 base or 3 mooks\n\nWhen this mook is blown up, reveal cards from the top of your arsenal until you reveal a mook with a different name. Hire that mook, and bottom the rest.",
+        "text": "Requires 1 base or 3 mooks\n\nWhen this mook is blown up, reveal cards from the top of your arsenal until you reveal a mook. Hire that mook, and bottom the rest.",
         "threat_level": "7",
         "archetype": "Weird Science"
     },
@@ -245,7 +245,7 @@
         ],
         "text": "When this mook onboards, each player draws a card.",
         "operation": "<b>Operation Energy Drinks (12) —</b> Assemble one of your blueprints. If the card you assembled with was a mook or scheme, draw a card.",
-        "threat_level": "6",
+        "threat_level": "5",
         "archetype": "Normal Job",
         "faction": "Mad Scientist",
         "tags": [
@@ -313,6 +313,7 @@
             "Support"
         ],
         "text": "Your other mooks get +3.",
+        "operation": "<b>Operation Pyrotechnic Climax (20) —</b> Blow up every mook that's away.",
         "threat_level": "6",
         "archetype": "Evil is Fun",
         "tags": [
@@ -323,8 +324,8 @@
     {
         "cardname": "Death Ray",
         "cardtype": "Blueprint",
-        "text": "At the start of your turn, if Death Ray has 6 or more cards under it, you can toss them all. If you do, target player loses the game.",
-        "operation": "<b>Operation Test Fire (12) —</b> Toss 2 cards from under Death Ray. If you do, blow up any nonplayer target.",
+        "text": "When you assemble Death Ray, if it has four or more machines under it, you can toss one of them. If you do, blow up target mook or base.",
+        "operation": "<b>Operation Test Fire (20) —</b> If Death Ray has fewer than six cards under it, blow up any nonplayer target. Otherwise, blow up any target.",
         "faction": "Mad Scientist",
         "image": "death_ray.png"
     },
@@ -362,7 +363,7 @@
     {
         "cardname": "Drafting Machine",
         "cardtype": "Machine",
-        "text": "When you would assemble a blueprint, first you can look at the top 3 cards of your arsenal, tuck one of them under that blueprint, and bottom the rest. Then put a card from under that blueprint into your hand.",
+        "text": "Whenever you assemble a blueprint, you can look at the top 3 cards of your arsenal, tuck one of them under that blueprint, and bottom the rest. Then put a card from under that blueprint into your hand.",
         "archetype": "Freedom Fighters",
         "faction": "Mad Scientist",
         "tags": [
@@ -393,7 +394,7 @@
             "Soldier",
             "Technician"
         ],
-        "text": "Whenever you start one or more operations, if you have a machine, you can hire a token mook.",
+        "text": "Requires 1 machine\n\nOnce per turn, when you start an operation, you can hire a token mook.",
         "threat_level": "5",
         "archetype": "Freedom Fighters",
         "tags": [
@@ -719,7 +720,7 @@
     {
         "cardname": "Inflict Harrowing Mutation",
         "cardtype": "Scheme",
-        "text": "Play only when a player hires a mook from their hand. When that mook onboards, blow it up.",
+        "text": "Play only when a player hires a mook from their hand.\n\nWhen that mook onboards, blow it up.",
         "archetype": "Weird Science",
         "tags": [
             "Mook Removal"
@@ -870,17 +871,19 @@
             "Goon"
         ],
         "text": "This mook gets +2 for each of your machines.",
+        "operation": "<b>Operation Metal Fist (16) —</b> Target player discards a card.",
         "threat_level": "6",
         "archetype": "Mob Stuff",
         "tags": [
-            "Buffs Stats"
+            "Buffs Stats",
+            "Discards Cards"
         ],
         "image": "metal_fist_bruiser.png"
     },
     {
         "cardname": "Mind Control Device",
         "cardtype": "Blueprint",
-        "text": "At the start of your turn, if Mind Control Device has 8 cards under it, you can toss them all. If you do, steal all of target enemy's mooks and that player loses the game.\n\nWhenever you start an operation, you can toss 2 cards from under Mind Control Device. If you do, target enemy mook at home joins that operation.",
+        "text": "Whenever you toss a card from under Mind Control Device, hire the tossed card as a token mook.\n\nAt the start of your turn, if Mind Control Device has at least four cards under it and you have at least four more mooks than any other player, you win the game. If not, you can toss a card from under Mind Control Device.",
         "image": "mind_control_device.png"
     },
     {
@@ -910,7 +913,7 @@
             "Scientist"
         ],
         "faction": "Mad Scientist",
-        "text": "Requires 4 or more schemes in your trash",
+        "text": "Requires 4 or more schemes in your trash\n\nYou can play any number of schemes each turn.",
         "operation": "<b>Operation Plan For Domination (12) —</b> Reveal cards from the top of your arsenal until you reveal a scheme. Put that card into your hand and bottom the rest.",
         "unique": true,
         "threat_level": "8",
@@ -978,11 +981,13 @@
     {
         "cardname": "Nautical Station",
         "cardtype": "Base",
-        "text": "Enemies can't target you or your stuff with operations that have total threat level 12 or less.",
-        "operation": "<b>Operation Catapult Launch (20) —</b> Stop an operation with lower total threat level than this one.",
+        "text": "Once per turn, one of your machines can act as an operative with threat level 4.",
+        "operation": "<b>Operation Catapult Launch (20) —</b> Look at target facedown card. If it's a machine, fabricate it.",
         "archetype": "Freedom Fighters",
         "tags": [
-            "Protection"
+            "Protection",
+            "Living Machine",
+            "Fabricates"
         ],
         "image": "nautical_station.png"
     },
@@ -1114,7 +1119,7 @@
     {
         "cardname": "Replace With a Double",
         "cardtype": "Scheme",
-        "text": "Play only when a player hires a mook from their hand. That mook onboards as a token mook. <i class=\"reminder_text\">(It's facedown, nameless, and has threat level 5 and no abilities.)</i>",
+        "text": "Play only when a player hires a mook from their hand.\n\nThat mook onboards as a token mook. <i class=\"reminder_text\">(It's facedown, nameless, and has threat level 5 and no abilities.)</i>",
         "archetype": "Hyjinks",
         "tags": [
             "Mook Removal"
@@ -1145,7 +1150,7 @@
         "type": [
             "Soldier"
         ],
-        "text": "Requires 1 machine\n\nWhenever an enemy starts an operation, you can blow up target operative from that operation with lower threat level than this mook.",
+        "text": "Requires 1 machine\n\nOnce per turn, when an enemy starts an operation and this mook is at home, you can blow up target operative from that operation with lower threat level than this mook.",
         "threat_level": "5",
         "archetype": "Freedom Fighters",
         "tags": [
@@ -1302,7 +1307,7 @@
         "unique": true,
         "threat_level": "9",
         "faction": "Mad Scientist",
-        "archetype": "Hyjinks",
+        "archetype": "Freedom Fighters",
         "tags": [
             "Faction Action"
         ],
@@ -1313,7 +1318,7 @@
         "cardtype": "Faction",
         "operation": "<b>Operation Man of Tomorrow (12) —</b> Assemble one of your blueprints.",
         "factionAbility": "You start the game with a blueprint of your choice in play. It's invincible.\n\nTo <b>assemble</b> a blueprint, tuck the top card of your arsenal under it.",
-        "factionSpecificAbility": "The first time a player targets you or your cards each turn, draw a card.",
+        "factionSpecificAbility": "At the start of your turn, you can put a card from under one of your cards into your hand.",
         "factionFlavorText": "I will destroy the entire city, unless you pay me... one million dollars! No, one billion dollars!",
         "faction": "Mad Scientist",
         "image": "super_villain.png"
@@ -1348,7 +1353,7 @@
             "Goon"
         ],
         "text": "When this mook returns home, draw a card.",
-        "operation": "<b>Operation The Big One (20) —</b> Tuck the top card of target player's arsenal under this mook. Until the end of your turn, you can play that card. If you don't, toss it from under this card.",
+        "operation": "<b>Operation The Big One (20) —</b> Tuck the top card of target player's arsenal under this mook. Until the end of your turn, you can play that card. If you don't, toss it.",
         "threat_level": "4",
         "archetype": "Mob Stuff",
         "tags": [
@@ -1402,7 +1407,7 @@
         ],
         "text": "When this mook onboards, hire a token mook.",
         "threat_level": "5",
-        "archetype": "Freedom Fighters",
+        "archetype": "Hyjinks",
         "tags": [
             "Hires Tokens"
         ],
@@ -1447,7 +1452,7 @@
     {
         "cardname": "Unstoppable Giant Robot",
         "cardtype": "Blueprint",
-        "text": "At the start of your turn, if Unstoppable Giant Robot has 6 or more cards under it, you can toss them all. If you do, it becomes a mook with threat level 24.\n\nOperations this mook joins can't be stopped.\n\nWhen this mook successfully completes an operation that targets an enemy or their stuff, that player loses the game.",
+        "text": "While Unstoppable Giant Robot has six or more cards under it, it's a mook with threat level 24.\n\nOperations this mook joins can't be stopped.\n\nWhen this mook successfully completes an operation that targets an enemy or their stuff, that player loses the game.",
         "image": "unstoppable_giant_robot.png"
     },
     {
@@ -1463,6 +1468,9 @@
     {
         "cardname": "Veteran of the Mime Wars",
         "cardtype": "Mook",
+        "type": [
+            "Soldier"
+        ],
         "text": "When this mook onboards, tuck the top card of your arsenal under it.\n\nWhenever one of your mooks would be blown up by an ability, you can toss a card from under this card instead.",
         "operation": "<b>Operation Strong Silent Type (14) —</b> Tuck the top card of your arsenal under this card.",
         "threat_level": "6",
