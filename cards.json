@@ -31,7 +31,7 @@
     {
         "cardname": "Advantage Fabricator",
         "cardtype": "Machine",
-        "text": "At the start of your turn, tuck the top card of your arsenal under this card. Then if this card has 2 or more cards under it, liquidate it and put those cards into your hand.",
+        "text": "At the start of your turn, tuck the top card of your arsenal under this card. Then if this card has two or more cards under it, liquidate it and put those cards into your hand.",
         "archetype": "Mob Stuff",
         "tags": [
             "Tucks Cards",
@@ -47,6 +47,7 @@
             "Support"
         ],
         "text": "When this mook joins an operation, if you have a base, you can exchange up to two cards from your hand with that many cards from under one of your blueprints.",
+        "operation": "<b>Operation Establish Digsite (10) —</b> Reveal cards from the top of your arsenal until you reveal a base. Play that base and bottom the rest.",
         "unique": true,
         "threat_level": "6",
         "faction": "Mad Scientist",
@@ -100,6 +101,7 @@
             "Henchman"
         ],
         "text": "As long as you have a machine, this mook gets +2 for each card in your hand.",
+        "operation": "<b>Operation Junk Armor (12) —</b> Draw a card.",
         "threat_level": "6",
         "archetype": "Freedom Fighters",
         "tags": [
@@ -113,11 +115,12 @@
         "type": [
             "Agent"
         ],
-        "text": "Once per turn, whenever an enemy targets a player or mook while this mook is at home, you can change that target to another target of the same type.",
+        "text": "Once per turn, whenever an enemy targets one of your mooks while this mook is at home, you can change that target to another one of your mooks.",
+        "operation": "<b>Operation Frivolous Lawsuit (14) —</b> Target player reveals their hand. You can play a scheme from it, but return it to their hand instead of tossing it.",
         "threat_level": "5",
         "archetype": "Hyjinks",
         "tags": [
-            "Faction Action"
+            "Protection"
         ]
     },
     {
@@ -178,7 +181,7 @@
             "Scientist"
         ],
         "text": "When this mook onboards, draw a card.",
-        "operation": "<b>Operation Atomic Strength (12) —</b> Assemble one of your blueprints.",
+        "operation": "<b>Operation Atomic Strength (12) —</b> <b>Assemble</b>, then if the card you assembled with was a scheme, you can put it into your hand.",
         "faction": "Mad Scientist",
         "threat_level": "4",
         "archetype": "Weird Science",
@@ -244,7 +247,7 @@
             "Goon"
         ],
         "text": "When this mook onboards, each player draws a card.",
-        "operation": "<b>Operation Energy Drinks (12) —</b> Assemble one of your blueprints. If the card you assembled with was a mook or scheme, draw a card.",
+        "operation": "<b>Operation Energy Drinks (12) —</b> <b>Assemble</b>. If the card you assembled with was a mook or scheme, draw a card.",
         "threat_level": "5",
         "archetype": "Normal Job",
         "faction": "Mad Scientist",
@@ -266,10 +269,10 @@
         "cardname": "Corrupt Officer",
         "cardtype": "Mook",
         "type": [
-            "Stooge"
+            "Henchman"
         ],
-        "text": "When this mook onboards, toss up to one card from under any nonplayer target.",
-        "operation": "<b>Operation Exploit Labor (14) —</b> Assemble one of your blueprints.",
+        "text": "When this mook onboards, send home target mook.",
+        "operation": "<b>Operation Exploit Labor (10) —</b> Draw a card for every time you've assembled this turn, then <b>assemble</b>.",
         "threat_level": "5",
         "faction": "Mad Scientist",
         "archetype": "Mob Stuff",
@@ -290,7 +293,7 @@
     {
         "cardname": "Dead Man's Switch",
         "cardtype": "Scheme",
-        "text": "Play this only when one of your unique mooks is blown up by an ability.\n\nBlow up any nonplayer target. Draw a card.",
+        "text": "Play this only when one of your unique mooks is blown up.\n\nBlow up any nonplayer target. Draw a card.",
         "archetype": "Movie Villain",
         "tags": [
             "Mook Removal",
@@ -313,8 +316,8 @@
             "Support"
         ],
         "text": "Your other mooks get +3.",
-        "operation": "<b>Operation Pyrotechnic Climax (20) —</b> Blow up every mook that's away.",
-        "threat_level": "6",
+        "operation": "<b>Operation Pyrotechnics (20) —</b> Liquidate this mook, then blow up every mook that's away.",
+        "threat_level": "5",
         "archetype": "Evil is Fun",
         "tags": [
             "Buffs Stats"
@@ -324,7 +327,7 @@
     {
         "cardname": "Death Ray",
         "cardtype": "Blueprint",
-        "text": "When you assemble Death Ray, if it has four or more machines under it, you can toss one of them. If you do, blow up target mook or base.",
+        "text": "When you <b>assemble</b> Death Ray, if it has four or more machines under it, you can toss one of them. If you do, blow up target mook or base.",
         "operation": "<b>Operation Test Fire (20) —</b> If Death Ray has fewer than six cards under it, blow up any nonplayer target. Otherwise, blow up any target.",
         "faction": "Mad Scientist",
         "image": "death_ray.png"
@@ -363,7 +366,7 @@
     {
         "cardname": "Drafting Machine",
         "cardtype": "Machine",
-        "text": "Whenever you assemble a blueprint, you can look at the top 3 cards of your arsenal, tuck one of them under that blueprint, and bottom the rest. Then put a card from under that blueprint into your hand.",
+        "text": "Whenever you <b>assemble</b>, you can look at the top 3 cards of your arsenal, tuck one of them under that blueprint, and bottom the rest. Then put a card from under that blueprint into your hand.",
         "archetype": "Freedom Fighters",
         "faction": "Mad Scientist",
         "tags": [
@@ -378,12 +381,15 @@
         "type": [
             "Goon"
         ],
-        "text": "When this mook onboards, tuck the top two cards of your arsenal under it.\n\nThis mook gets +2 for each card under it.",
+        "text": "This mook gets +2 for every card under your cards.",
+        "operation": "<b>Operation Hoard (12) —</b> You can <b>assemble</b>. If you don't, you can tuck the top card of your arsenal under one of your cards.",
         "threat_level": "4",
         "archetype": "Hyjinks",
+        "faction": "Mad Scientist",
         "tags": [
             "Tucks Cards",
-            "Buffs Stats"
+            "Buffs Stats",
+            "Faction Action"
         ],
         "image": "dragon_cosplayer.png"
     },
@@ -394,11 +400,13 @@
             "Soldier",
             "Technician"
         ],
-        "text": "Requires 1 machine\n\nOnce per turn, when you start an operation, you can hire a token mook.",
+        "text": "Requires 1 machine\n\nOnce per turn, one of your machines can act as an operative with threat level 4.",
+        "operation": "<b>Operation Flight Sim (9) —</b> Hire a token mook.",
         "threat_level": "5",
         "archetype": "Freedom Fighters",
         "tags": [
-            "Hires Tokens"
+            "Hires Tokens",
+            "Living Machine"
         ],
         "image": "drone_pilot.png"
     },
@@ -441,9 +449,9 @@
     {
         "cardname": "Evil Doctor",
         "cardtype": "Faction",
-        "operation": "<b>Operation Dark Laboratory (12) —</b> Assemble one of your blueprints.",
-        "factionAbility": "You start the game with a blueprint of your choice in play. It's invincible.\n\nTo <b>assemble</b> a blueprint, tuck the top card of your arsenal under it.",
+        "factionAbility": "You start the game with a blueprint of your choice in play. It's invincible.",
         "factionSpecificAbility": "The first time you hire one or more token mooks each turn, you hire that many plus one instead.",
+        "operation": "<b>Operation Dark Laboratory (10) —</b> <b>Assemble</b>.\n <i class=\"reminder_text\">(To <b>assemble</b>, tuck the top card of your arsenal under one of your blueprints.)</i>",
         "factionFlavorText": "Quickly, Igor, I need more victi-... test subj-... I need more willing participants!",
         "faction": "Mad Scientist",
         "image": "evil_doctor.png"
@@ -488,6 +496,7 @@
             "Scientist"
         ],
         "text": "Once per turn, whenever another of your nontoken mooks is blown up, hire a token mook.",
+        "operation": "<b>Operation Crack the Tank (7) —</b> Hire a token mook.",
         "unique": true,
         "threat_level": "7",
         "faction": "Mad Scientist",
@@ -518,7 +527,7 @@
             "Henchman"
         ],
         "text": "When this mook onboards, target mook gets -5 from embarassment until end of turn.",
-        "operation": "<b>Operation Inside Scoop (5) —</b> Target mook loses all immunities until end of turn.",
+        "operation": "<b>Operation Inside Scoop (5) —</b> Target mook loses invincible and all immunities until end of turn.",
         "threat_level": "5",
         "archetype": "Normal Job",
         "tags": [
@@ -557,12 +566,15 @@
         "type": [
             "Scientist"
         ],
-        "text": "When you draw this card, you can reveal it to hire it.\n\nWhenever you fabricate a machine, look at the top two cards of your arsenal. Bottom any number of them, then put the rest on top in any order.",
+        "unique": true,
+        "text": "Whenever you fabricate a machine, look at the top two cards of your arsenal. Bottom any number of them, then put the rest on top in any order.",
+        "operation": "<b>Operation Hack the Mainframe (12) —</b> <b>Assemble</b>, then if the assembled blueprint has four or fewer cards under it you can toss a card from under any nonplayer target.",
         "threat_level": "6",
         "archetype": "Movie Villain",
+        "faction": "Mad Scientist",
         "tags": [
-            "Hires Mooks",
-            "Card Selection"
+            "Card Selection",
+            "Faction Action"
         ],
         "image": "gifted_programmer.png"
     },
@@ -631,7 +643,8 @@
             "Scientist"
         ],
         "text": "Immune to poison, disease, and radiation.",
-        "threat_level": "6",
+        "operation": "<b>Operation Big Suit Up (5) —</b> Your mooks and mooks you hire are immune to poison, disease, and radiation until end of turn.",
+        "threat_level": "5",
         "archetype": "Weird Science",
         "tags": [
             "Protection"
@@ -641,7 +654,7 @@
     {
         "cardname": "High-Powered Hologram Projector",
         "cardtype": "Machine",
-        "text": "If anything would be blown up by an ability, you can liquidate this machine instead.",
+        "text": "If a anything would be blown up, you can liquidate this machine instead.",
         "archetype": "Weird Science",
         "tags": [
             "Protection"
@@ -651,7 +664,7 @@
     {
         "cardname": "Hire Contractor",
         "cardtype": "Scheme",
-        "text": "Hire a mook from your hand, ignoring its requirements.",
+        "text": "Choose one: hire a mook from your hand, ignoring its requirements, then draw a card; or hire a token mook.",
         "archetype": "Normal Job",
         "tags": [
             "Hires Mooks"
@@ -699,7 +712,8 @@
         "type": [
             "Henchman"
         ],
-        "text": "This mook has threat level 6 and cannot be blown up by schemes or operations. <i class=\"reminder_text\">(Its threat level can't change.)</i>",
+        "text": "This mook's threat level can't change.",
+        "operation": "<b>Operation Juggernaut (6) —</b> Blow up target mook with threat level 6 or less.",
         "threat_level": "6",
         "archetype": "Freedom Fighters",
         "tags": [
@@ -720,7 +734,7 @@
     {
         "cardname": "Inflict Harrowing Mutation",
         "cardtype": "Scheme",
-        "text": "Play only when a player hires a mook from their hand.\n\nWhen that mook onboards, blow it up.",
+        "text": "Play only when a player hires a mook from their hand.\n\nWhen that mook onboards, it's blown up from radiation.",
         "archetype": "Weird Science",
         "tags": [
             "Mook Removal"
@@ -748,7 +762,8 @@
         "type": [
             "Technician"
         ],
-        "text": "When this mook onboards, assemble one of your blueprints.",
+        "text": "When this mook onboards, each player can draw a card, then discard a card.",
+        "operation": "<b>Operation Gain Experience (12) —</b> <b>Assemble</b>. If the card you assembled with was a machine, you can <b>assemble</b> again.",
         "threat_level": "5",
         "faction": "Mad Scientist",
         "archetype": "Evil is Fun",
@@ -788,8 +803,8 @@
     {
         "cardname": "Kid's Science Museum",
         "cardtype": "Base",
-        "text": "Your scientists get +2.\n\nFriendly abilities triggered by fabricating machines trigger twice.",
-        "operation": "<b>Operation Field Trip (18) —</b> Blow up target base.",
+        "text": "Your scientists get +2.",
+        "operation": "<b>Operation Field Trip (14) —</b> Blow up target base.",
         "archetype": "Normal Job",
         "tags": [
             "Base Removal",
@@ -847,7 +862,7 @@
         "type": [
             "Henchman"
         ],
-        "text": "Whenever you assemble a blueprint, you can use a card from your hand instead of the top card of your arsenal. If you do, draw a card.",
+        "text": "Whenever you <b>assemble</b>, you can use a card from your hand instead of the top card of your arsenal. If you do, draw a card.",
         "threat_level": "6",
         "faction": "Mad Scientist",
         "archetype": "Mob Stuff",
@@ -883,7 +898,7 @@
     {
         "cardname": "Mind Control Device",
         "cardtype": "Blueprint",
-        "text": "Whenever you toss a card from under Mind Control Device, hire the tossed card as a token mook.\n\nAt the start of your turn, if Mind Control Device has at least four cards under it and you have at least four more mooks than any other player, you win the game. If not, you can toss a card from under Mind Control Device.",
+        "text": "At the start of your turn, if Mind Control Device has at least four cards under it, you can toss one of them and choose target player. If that player has at least as many mooks as you do, target one of them and steal it. If that player has fewer mooks than you do and the difference is at least four, steal that player.",
         "image": "mind_control_device.png"
     },
     {
@@ -901,7 +916,7 @@
         "type": [
             "Goon"
         ],
-        "text": "Whenever an enemy operation resolves, if it didn't target you or any cards, you can discard a card to copy that operation. You can choose new targets for the copy.",
+        "text": "Once per turn, when an enemy operation resolves and didn't target you or any cards, you can discard a card to copy that operation. You can choose new targets for the copy.",
         "threat_level": "5",
         "archetype": "Mob Stuff",
         "image": "mook_lobbyist.png"
@@ -970,7 +985,7 @@
             "Animal",
             "Support"
         ],
-        "text": "When this mook onboards, take back everything that was stolen from you.\n\nThe first time this mook would be blown up by an ability, instead it becomes a cyborg with threat level 6.",
+        "text": "When this mook onboards, take back everything that was stolen from you.\n\nWhen this mook is blown up, hire it as a token mook instead of tossing it. It's a cyborg.",
         "threat_level": "3",
         "archetype": "Movie Villain",
         "tags": [
@@ -982,7 +997,7 @@
         "cardname": "Nautical Station",
         "cardtype": "Base",
         "text": "Once per turn, one of your machines can act as an operative with threat level 4.",
-        "operation": "<b>Operation Catapult Launch (20) —</b> Look at target facedown card. If it's a machine, fabricate it.",
+        "operation": "<b>Operation Catapult Launch (14) —</b> Blow up target machine.",
         "archetype": "Freedom Fighters",
         "tags": [
             "Protection",
@@ -994,9 +1009,9 @@
     {
         "cardname": "Obsessed Engineer",
         "cardtype": "Faction",
-        "operation": "<b>Operation Doomsday Device (12) —</b> Assemble one of your blueprints.",
-        "factionAbility": "You start the game with a blueprint of your choice in play. It's invincible.\n\nTo <b>assemble</b> a blueprint, tuck the top card of your arsenal under it.",
-        "factionSpecificAbility": "Your operations cost 1 less for each of your machines.",
+        "factionAbility": "You start the game with a blueprint of your choice in play. It's invincible.",
+        "factionSpecificAbility": "Whenever an enemy fabricates a machine, you can look at the top card of your arsenal. If it's a machine, order it. If not, you can toss it.",
+        "operation": "<b>Operation Doomsday Device (10) —</b> <b>Assemble</b>.\n <i class=\"reminder_text\">(To <b>assemble</b>, tuck the top card of your arsenal under one of your blueprints.)</i>",
         "factionFlavorText": "My modification will increase the efficiency of the unilateral phase detractors by over three point seven two percent! I'll be unstoppable!",
         "faction": "Mad Scientist",
         "image": "obsessed_engineer.png"
@@ -1007,9 +1022,14 @@
         "type": [
             "Support"
         ],
-        "text": "Enemy mooks have +1 to each of their requirements.\n\nMooks without requirements can't join operations the turn they onboard.",
-        "threat_level": "5",
+        "text": "Requires 1 mook.\n\nEnemy mooks have +1 to each of their requirements.",
+        "operation": "<b>Operation Aquarium Training (14) —</b> <b>Assemble</b>, then if you have eight or fewer cards in hand, draw a card.",
+        "threat_level": "8",
         "archetype": "Natural Course",
+        "faction": "Mad Scientist",
+        "tags": [
+            "Faction Action"
+        ],
         "image": "octopus_trainer.png"
     },
     {
@@ -1092,7 +1112,7 @@
         "type": [
             "Henchman"
         ],
-        "text": "Invincible",
+        "text": "Invincible\n\nWhen this mook onboards, resolve one of your operations.",
         "unique": true,
         "threat_level": "5",
         "archetype": "Evil is Fun",
@@ -1129,7 +1149,7 @@
     {
         "cardname": "Reveal Conspiracy",
         "cardtype": "Scheme",
-        "text": "Play only when an enemy plays a scheme.\n\nYou can choose new targets for that scheme. If it has no targets, you perform that scheme's actions instead.",
+        "text": "Play only when an enemy plays a scheme.\n\nYou can choose new targets for the scheme. If it has no targets, you resolve the scheme's abilities instead of its player.",
         "archetype": "Natural Course",
         "image": "reveal_conspiracy.png"
     },
@@ -1185,7 +1205,7 @@
         "type": [
             "Agent"
         ],
-        "text": "Lone Operative <i class=\"reminder_text\">(This mook can perform operations by itself, regardless of threat level requirement)</i>\n\nWhen this mook onboards or comes home, toss a card from under any nonplayer target.",
+        "text": "Lone Operative <i class=\"reminder_text\">(This mook can perform operations by itself, regardless of threat level requirement)</i>\n\nWhen this mook onboards, toss a card from under any nonplayer target.",
         "unique": true,
         "threat_level": "5",
         "archetype": "Movie Villain",
@@ -1210,7 +1230,7 @@
             "Scientist"
         ],
         "text": "Your schemes can't be stopped.",
-        "operation": "<b>Operation Esoteric Writing (12) —</b> Liquidate a mook when you start this operation. When it resolves, reveal a scheme from your hand and use its effect for this operation <i class=\"reminder_text\">(you don't have to pay its costs)</i>.",
+        "operation": "<b>Operation Esoteric Writing (12) —</b> Liquidate a mook as a cost when you start this operation. When it resolves, reveal a scheme from your hand and use its effect for this operation <i class=\"reminder_text\">(you don't have to pay its costs)</i>.",
         "threat_level": "5",
         "archetype": "Weird Science",
         "tags": [
@@ -1238,7 +1258,8 @@
         "type": [
             "Support"
         ],
-        "text": "Whenever one of your token mooks onboards, look at it. You can flip it faceup.",
+        "text": "You can look at your token mooks.\n\nWhenever one of your token mooks onboards, you can flip it faceup.",
+        "operation": "<b>Operation Reveal Potential (6) —</b> Flip one of your token mooks faceup.",
         "threat_level": "6",
         "archetype": "Normal Job"
     },
@@ -1303,7 +1324,7 @@
             "Henchman"
         ],
         "text": "Requires 3 mooks\n\nOnce each turn, when one of your operations is completed successfully, resolve it again with the same operatives. You can choose new targets.",
-        "operation": "<b>Operation Cooperation (12) —</b> Assemble one of your blueprints, then draw a card.",
+        "operation": "<b>Operation Cooperation (12) —</b> <b>Assemble</b>, then draw a card.",
         "unique": true,
         "threat_level": "9",
         "faction": "Mad Scientist",
@@ -1316,9 +1337,9 @@
     {
         "cardname": "Super Villain",
         "cardtype": "Faction",
-        "operation": "<b>Operation Man of Tomorrow (12) —</b> Assemble one of your blueprints.",
-        "factionAbility": "You start the game with a blueprint of your choice in play. It's invincible.\n\nTo <b>assemble</b> a blueprint, tuck the top card of your arsenal under it.",
+        "factionAbility": "You start the game with a blueprint of your choice in play. It's invincible.",
         "factionSpecificAbility": "At the start of your turn, you can put a card from under one of your cards into your hand.",
+        "operation": "<b>Operation Man of Tomorrow (10) —</b> <b>Assemble</b>.\n <i class=\"reminder_text\">(To <b>assemble</b>, tuck the top card of your arsenal under one of your blueprints.)</i>",
         "factionFlavorText": "I will destroy the entire city, unless you pay me... one million dollars! No, one billion dollars!",
         "faction": "Mad Scientist",
         "image": "super_villain.png"
@@ -1365,7 +1386,7 @@
     {
         "cardname": "Threaten Endangered Animals",
         "cardtype": "Scheme",
-        "text": "Search your arsenal for up to three machines. Choose one of them in secret and order it. After you shuffle, put one of the remaining cards on top and bottom the rest.",
+        "text": "Until end of turn, you can fabricate machines that you ordered this turn and you can order as many machines as you want. At the end of the turn, if you didn't fabricate any machines this turn, draw a card.",
         "archetype": "Natural Course",
         "tags": [
             "Card Selection",
@@ -1471,7 +1492,7 @@
         "type": [
             "Soldier"
         ],
-        "text": "When this mook onboards, tuck the top card of your arsenal under it.\n\nWhenever one of your mooks would be blown up by an ability, you can toss a card from under this card instead.",
+        "text": "When this mook onboards, tuck the top card of your arsenal under it.\n\nWhenever one of your mooks would be blown up, you can toss a card from under this card instead.",
         "operation": "<b>Operation Strong Silent Type (14) —</b> Tuck the top card of your arsenal under this card.",
         "threat_level": "6",
         "archetype": "Hyjinks",
@@ -1491,6 +1512,7 @@
         "faction": "Mad Scientist",
         "archetype": "Movie Villain",
         "tags": [
+            "Protection",
             "Mook Removal"
         ],
         "image": "villainous_lapcat.png"
@@ -1502,7 +1524,7 @@
             "Support",
             "Goon"
         ],
-        "text": "When this mook onboards, blow up every mook. Until end of turn, whenever a mook onboards, it's blown up by radiation.",
+        "text": "When this mook onboards, blow up every mook. Until end of turn, whenever a mook onboards, it's blown up from radiation.",
         "threat_level": "4",
         "archetype": "Movie Villain",
         "tags": [
