@@ -1386,7 +1386,7 @@
     {
         "cardname": "Threaten Endangered Animals",
         "cardtype": "Scheme",
-        "text": "Until end of turn, you can fabricate machines that you ordered this turn and you can order as many machines as you want. At the end of the turn, if you didn't fabricate any machines this turn, draw a card.",
+        "text": "Until end of turn, you can fabricate machines that you ordered this turn and you can fabricate as many machines as you want. At the end of the turn, if you didn't fabricate any machines this turn, draw a card.",
         "archetype": "Natural Course",
         "tags": [
             "Card Selection",
