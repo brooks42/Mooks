@@ -226,7 +226,8 @@
         "cardtype": "Mook",
         "text": "Requires 1 base or 3 mooks\n\nWhen this mook is blown up, reveal cards from the top of your arsenal until you reveal a mook. Hire that mook, and bottom the rest.",
         "threat_level": "7",
-        "archetype": "Weird Science"
+        "archetype": "Weird Science",
+        "image": "conspicuous_trenchcoat.png"
     },
     {
         "cardname": "Contribute to the Tech Bubble",
@@ -288,7 +289,8 @@
         "archetype": "Mob Stuff",
         "tags": [
             "Draws Cards"
-        ]
+        ],
+        "image": "crime_organizer.png"
     },
     {
         "cardname": "Dead Man's Switch",
